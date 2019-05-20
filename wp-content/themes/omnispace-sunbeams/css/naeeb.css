@@ -1,0 +1,1860 @@
+/*        FONT FACE RULE
+=========================================*/
+
+@font-face {
+	font-family: alef-bold;
+	src: url(font/Alef-Bold.ttf);
+}
+
+@font-face {
+	font-family: alef-regular;
+	src: url(font/Alef-Regular.ttf);
+}
+
+@font-face {
+	font-family: cen;
+	src: url(font/CENSCBK.ttf);
+}
+
+@font-face {
+	font-family: din;
+	src: url(font/DINEngschriftStd.ttf);
+}
+
+
+/*                MEDIA QUERIES FOR FONT
+===========================================================*/
+
+
+/* If the screen size is 600px or less, set the font-size */
+
+@media only screen and (max-width: 600px) {
+	.n_homebar {
+		font-size: 16px!important;
+	}
+	
+	.n_homebarHolidays {
+		font-size: 16px!important;
+	}
+	
+		.n_homebarAllEvents {
+		font-size: 16px!important;
+	}
+	.n_writingFirst {
+		font-size: 14px;
+	}
+}
+
+
+/* If the screen size is 601px or more, set the font-size of */
+
+@media only screen and (min-width: 601px) {
+	.n_homebar {
+		font-size: 16px;
+	}
+	
+	.n_homebarHolidays {
+		font-size: 16px;
+	}
+	
+	.n_homebarAllEvents {
+		font-size: 16px;
+	}
+	.n_writingFirst {
+		font-size: 15px;
+	}
+	.n_writingSecond {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width: 1500px) {
+	.n_writingFirst {
+		font-size: 22px;
+	}
+	.n_writingSecond {
+		font-size: 22px;
+	}
+}
+
+
+/*            PRINCIPAL'S PAGE
+==========================================================
+
+/* FULL DIV THUMBNAIL IMAGE HOME AND HOME BAR ETC
+======================================================*/
+
+.n_full {
+	overflow: hidden;
+	margin-top: -5%;
+	/*margin-bottom:-5%;*/
+	background-color: #E6E7E8;
+	/*border:2px solid green;*/
+}
+
+.n_differentfull {
+   /* position:absolute;*/
+   /* z-index:1;*/
+	overflow: hidden;
+	margin-left: 5%;
+	margin-right: 5%;
+	/*margin-top: 4%;  */
+	/*margin-bottom:-5%;*/
+	background-color: white;
+	/*border:2px solid red;*/
+	height: auto;
+}
+
+.n_differentfullLegacy {
+	overflow: hidden;
+	width:60%;
+    margin:0 auto;
+	background-color: white;
+    font-family: alef-regular!important;
+    text-align:justify;
+    height:auto;
+}
+
+.n_differentfullHolidays {
+    
+     z-index:1;
+	overflow: hidden;
+	margin-left: 10%;
+	margin-right: 10%;
+	/*margin-top: 4%;  */
+	/*margin-bottom:-5%;*/
+	background-color: white;
+	/*border:2px solid red;*/
+	height: auto;
+}
+
+
+.n_differentfullCal {
+     position:absolute;
+     z-index:1;
+	overflow: hidden;
+	margin-left: 5%;
+	margin-right: 5%;
+	/*margin-top: 4%;  */
+	/*margin-bottom:-5%;*/
+	background-color: white;
+	/*border:2px solid red;*/
+	height: auto;
+}
+
+
+@media only screen and (max-width: 320px) {
+
+.n_differentfullHolidays
+{
+    overflow:hidden;
+    margin-left:-1%;
+    width:95%;
+    /*border:2px solid red;*/
+    transform:scale(0.9);
+    
+}
+}
+
+@media only screen and (max-width: 600px) {
+
+.n_differentfullLegacy
+    {
+        width:90%;
+        margin:0 auto;
+        height:100%;
+        margin-top: 5%;
+    }
+    
+
+}
+
+
+.n_prinImage {
+	width: 100%;
+	height: 85vh;
+	margin-bottom: 15vh;
+	object-fit: cover;
+}
+
+n_contain {
+	position: relative;
+}
+
+.n_principalBox {
+	background-color: #787878;
+	opacity: 0.65;
+	width: 100vw;
+	height: 60px;
+	position: absolute;
+	bottom: 200px;
+	left: 5%;
+	color: white;
+	/* border:2px solid red;*/
+	/*margin-top: -20%;*/
+	font-family: alef-bold;
+	/* margin-top: -10%;*/
+}
+
+.n_facilityBox {
+	background-color: #787878;
+	opacity: 0.65;
+	width: 20vw;
+	height: 60px;
+	position: absolute;
+	bottom: 200px;
+	left: 5%;
+	color: white;
+	/*border:2px solid red;*/
+	/*margin-top: -20%;*/
+	font-family: alef-bold;
+	/* margin-top: -10%;*/
+}
+
+.n_missionBox {
+	background-color: #787878;
+	opacity: 0.65;
+	width: 20vw;
+	height: 60px;
+	position: absolute;
+	bottom: 200px;
+	left: 5%;
+	color: white;
+	/*border:2px solid red;*/
+	/*margin-top: -20%;*/
+	font-family: alef-bold;
+	/* margin-top: -10%;*/
+}
+
+.n_prinTitle {
+	text-align: left;
+	margin-top: 6%;
+	/*margin-right: 3%;*/
+}
+
+.n_homebar {
+	/*margin-left: 5%;*/
+	color: grey;
+	font-family: alef-regular;
+   margin-left: 1%;
+	margin-right: 2%;
+	margin-top: -0.5%;
+	padding-bottom: .6rem;
+	border-bottom: 2px solid #A9A9A9;
+	text-transform: uppercase;
+}
+
+.n_homebarAllEvents {
+	/*margin-left: 5%;*/
+	color: grey;
+	font-family: alef-regular;
+    margin-top: -0.5%;
+	padding-bottom: .6rem;
+	border-bottom: 2px solid #A9A9A9;
+	text-transform: uppercase;
+}
+
+
+.n_homebarHolidays {
+	
+	color: grey;
+	font-family: alef-regular;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: -0.5%;
+	padding-bottom: .6rem;
+	border-bottom: 2px solid #A9A9A9;
+	text-transform: uppercase;
+}
+
+
+/*.n_hr {
+    margin-left: 1%;
+	margin-right: 2%;
+	margin-top: -0.5%;
+    
+}*/
+
+
+/* PRINCIPAL'S PAGE 1ST PARA
+==============================*/
+
+.n_writingFirst {
+	margin-left: 9%;
+	/* max-width: 900px;*/
+	/*text-align: justify;*/
+	/*color: #1DA1F2;*/
+	color: black;
+	font-family: alef-regular;
+	/*border:3px solid green;*/
+}
+
+
+/* PRINCIPAL'S PAGE 2ND PARA
+=============================*/
+
+.n_writingSecond {
+	text-align: justify;
+	margin-right: 4%;
+	margin-left: -1%;
+	font-family: alef-regular;
+	/*border:3px solid green;*/
+}
+
+
+/* PRINCIPAL'S PAGE IMAGE
+============================*/
+
+.n_im {
+	/*  border: 2px solid red;*/
+	margin-left: -3%;
+	/* width:1200px;*/
+	height: 600px;
+	object-fit: cover;
+	margin-top: 2%;
+}
+
+
+/*MEDIA QUERIES FOR HOMEBAR PRINCIPAL IMAGE AND THUMBNAIL IMAGE
+===============================================================
+
+/*FOR MOBILE SCREEN (<=600 PX)*/
+
+@media only screen and (max-width: 600px) {
+	.n_homebar {
+		margin-top: 15%;
+	}
+	.n_homebarHolidays {
+		margin-top: 15%;
+	}
+	
+	.n_homebarAllEvents {
+		margin-top: 15%;
+	}
+	.n_prinImage {
+		display: none;
+	}
+	.n_im {
+		margin-bottom: 20px;
+		width: 400px;
+		height: 200px!important;
+	}
+}
+
+
+/*FOR SCREEN ( BETWEEN 601 TO 1200 PX IPADS)*/
+
+@media only screen and (max-width: 1200px) {
+	.n_homebar {
+		margin-top: 10%;
+	}
+	
+	.n_homebarHolidays {
+		margin-top: 10%;
+	}
+	
+	.n_homebarAllEvents {
+		margin-top: 10%;
+	}
+	
+	.n_prinImage {
+		display: none;
+	}
+	.n_im {
+		height: 500px;
+		margin-top: 0.1%;
+		margin-bottom: 20px;
+		margin-left: 1%;
+	}
+	.n_principalBox {
+		visibility: hidden;
+	}
+}
+
+
+/* LAPTOP SCREEN PRINCIPAL BOX TITLE*/
+
+@media only screen and (min-width: 1360px) {
+	.n_principalBox {
+		bottom: 120px;
+		width: 40vw;
+	}
+	.n_facilityBox {
+		bottom: 120px;
+		width: 18vw;
+	}
+	
+	 .n_missionBox {
+		bottom: 120px;
+		width: 25vw;
+	}
+	.n_prinTitle {
+		text-align: right;
+		margin-top: 3%;
+		margin-right: 3%;
+	}
+}
+
+
+/*FOR SCREEN ( >=1500 PX)*/
+
+@media only screen and (min-width: 1500px) {
+	.n_writingSecond {
+		text-align: justify;
+		margin-right: 4%;
+		margin-left: -1%;
+		font-family: alef-regular;
+		font-size: 20px;
+		/*border:3px solid green;*/
+	}
+	.n_principalBox {
+		bottom: 160px;
+		width: 30vw;
+	}
+	.n_facilityBox {
+		bottom: 160px;
+		width: 15vw;
+	}
+	
+	.n_missionBox {
+		bottom: 160px;
+		width: 20vw;
+	}
+	.n_prinTitle {
+		text-align: right;
+		margin-top: 3%;
+		margin-right: 3%;
+	}
+}
+
+
+/*MEDIA QUERY FOR HIDE AND SHOW OF THE IMAGE
+==============================================*/
+
+@media only screen and (min-width: 300px) {
+	.n_hideImageTwo {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 767px) {
+	.n_hideImageTwo {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1300px) {
+	.n_hideImageOne {
+		display: none;
+	}
+	.n_hideImageTwo {
+		display: inline;
+	}
+}
+
+
+/* NEWS AND NOTICE PAGE CSS*/
+
+
+/*===============================================/*
+/*Full Notice Div */
+
+
+/*VARIABLE FONT SIZE */
+
+
+/* If the screen size is 600px or less, set the font-size */
+
+@media only screen and (max-width: 600px) {
+	.n_homebar {
+		font-size: 10px;
+	}
+	
+		.n_homebarHolidays {
+		font-size: 10px;
+	}
+	
+		.n_homebarAllEvents {
+		font-size: 10px;
+	}
+	/* If the screen size is 601px or more, set the font-size of */
+	@media only screen and (min-width: 601px) {
+		.n_homebar {
+			font-size: 16px;
+		}
+		
+		.n_homebarHolidays {
+			font-size: 16px;
+		}
+		
+		.n_homebarAllEvents {
+		font-size: 16px;
+	}
+	
+		.n_writingSecond {
+			font-size: 15px;
+		}
+	}
+}
+
+.n_noticeNewsEvents {
+	display: block;
+	background-color: white;
+	line-height: 3;
+	margin: -10% 5% 0 5%;
+	box-shadow: 3px 2px 2px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	padding: 5% 3% 5% 5%;
+	position: relative;
+	z-index: 1000;
+	/*border:2px solid red;*/
+	width: 90vw;
+}
+
+
+/*Home*/
+
+.n_homebarNotice {
+	color: black;
+	/*border:2px solid green;*/
+	margin-top: -4%;
+	font-family: alef-regular;
+	color: grey;
+}
+
+
+/* bottombarNotice */
+
+.n_hrNotice {
+	margin-right: 5%;
+	margin-top: -1.5%;
+}
+
+.n_writingFirstNotice {
+	/*color: #1DA1F2;*/
+	color: #3366CC;
+	font-family: alef-bold;
+	line-height: 1.5;
+	font-size: 22px;
+	text-align: justify;
+	margin-left: -1.5%;
+	/* border:3px solid green;*/
+}
+
+
+/*Designs of Column 1 Events*/
+
+.n_events1 {
+	width: 90%;
+	height: auto;
+}
+
+.n_events_pic1 {
+	width: 100%;
+	transition: ease .2s;
+}
+
+.n_events_pic1:hover {
+	transform: scale(0.95);
+}
+
+
+/*.co {
+	border: 2px solid red;
+}*/
+
+
+/*=================DESIGN FOR ALL EVENTS PAGE===============*/
+
+.n_allEvents {
+	overflow: hidden;
+	margin-left: 20%;
+	margin-right: 20%;
+	/*margin-top: 4%;  */
+	/*margin-bottom:-5%;*/
+	background-color: white;
+	/*border:2px solid red;*/
+	height: auto;
+}
+
+
+.n_allEventsHeading
+{
+    font-family: alef-bold;
+}
+.n_allEExcerpt
+{
+    font-family: alef-regular;
+    /*font-size: calc(100vw/108);*/ /*WORKS ONLY FOR DESKTOP, LAPTOP*/
+    font-size: 18PX;
+}
+
+.n_allEButton
+{
+    margin-left:45%;
+}
+
+/*============DESIGNS FOR SINGLE.PHP===========*/
+
+.n_allEventsSingle {
+	overflow: hidden;
+	margin-left: 20%;
+	margin-right: 20%;
+	/*margin-top: 4%;  */
+	/*margin-bottom:-5%;*/
+	background-color: white;
+	/*border:2px solid red;*/
+	height: auto;
+}
+.n_allESingleDetails
+{
+     font-family: alef-regular;
+    /*font-size: calc(100vw/108);*/ /*WORKS ONLY FOR DESKTOP, LAPTOP*/
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+
+/*Designs of Column 2 Newsletter ===========
+============================================*/
+
+.n_news1 {
+	width: 90%;
+	height: 40%;
+	background-color: #D3D3D3;
+	
+	display: inline-block;
+	padding: 2%;
+    transition: ease .2s;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-radius: 10px!important;
+	/*border:2px solid red;*/
+}
+
+.n_news1:hover {
+	transform: scale(0.95);
+}
+
+.n_news2 {
+	width: 90%;
+	height: 100%;
+	/*background-color: #D3D3D3;*/
+	display: inline-block;
+	/*padding:1%;*/
+	/*  border:2px solid red;*/
+	position: relative;
+	transition: ease .2s;
+    margin-bottom: 5%;
+    
+}
+
+.n_news2:hover {
+	transform: scale(0.95);
+}
+
+.n_inside {
+	/*border:2px solid green;*/
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+	/*padding: 3%;*/
+	border-radius: 10px;
+	background-color: white;
+	width: 80%;
+	display: inline-block;
+	line-height: 1;
+}
+
+
+/* unvisited link */
+
+
+/* visited link */
+
+.n_newsletter:visited {
+	color: black;
+}
+
+
+/* mouse over link */
+
+.n_newsletter:hover {
+	color: #009CDA;
+}
+
+
+/* selected link */
+
+.n_newsletter:active {
+	color: black;
+}
+
+.n_noEvent {
+	pointer-events: none;
+	margin-left: 5%;
+	/*border:1px solid red;*/
+}
+
+.n_yesEvent {
+	pointer-events: auto;
+	/*border:1px solid green;*/
+	line-height: 1.5;
+	margin-top: 5%;
+	font-family: alef-regular;
+}
+
+/*DESIGN FOR NEWSLETTER PAGE*/
+
+.n_allNewsletter {
+	overflow: hidden;
+	margin-left: 15%;
+	margin-right: 15%;
+	/*margin-top: 4%;  */
+	/*margin-bottom:-5%;*/
+	background-color: white;
+	/*border:2px solid black;*/
+	
+}
+
+
+
+
+
+
+
+
+/*Designs of Column 3 Notice Board ===========
+============================================*/
+
+.n_notice1 {
+	line-height: 2;
+}
+
+.n_noticeHead {
+	color: black;
+	font-family: din;
+}
+
+.n_excerpt {
+	font-family: alef-regular;
+}
+
+
+/*DESIGNS OF MENU'S */
+
+.n_colorHover:link {
+	text-decoration: none;
+}
+
+.n_columnHead {
+	width: 160px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	color: #4d4d4f;
+	margin-bottom: 20px;
+	margin-left: 20%;
+	font-family: alef-bold;
+	margin-top: 20%;
+	margin: 0 auto;
+	/* border: 1px solid red;*/
+}
+
+.n_columnHead:after {
+	margin-top: 10px;
+	content: '';
+	display: block;
+	margin: 0 auto;
+	width: 30%;
+	height: 4px;
+	background: #1c75bc;
+	transition: width .3s;
+}
+
+.n_columnHead:hover:after {
+	width: 94%;
+}
+
+
+/* Facilities Page =========
+=============================
+*/
+
+.n_facBold {
+	margin: 0 auto;
+	max-width: 750px;
+	line-height: 1.5;
+	text-align: center;
+	margin-bottom: 2%;
+	font-family: alef-bold;
+	/*border: 1px solid red;*/
+}
+
+.n_facSecondRow {
+	margin: 0 auto;
+	max-width: 850px;
+	line-height: 1.8;
+	text-align: center;
+	font-family: alef-regular;
+	margin-bottom: 5%;
+}
+
+.n_facLeftCol {
+	max-width: 530px;
+	line-height: 1.5;
+	font-family: alef-regular;
+	margin-bottom: 5%;
+	/*text-align: justify;*/
+	/*border: 1px solid red;*/
+}
+
+.n_facImage {
+	/*margin-left: 10%;*/
+	/*border:2px solid green;*/
+	object-fit: cover;
+	width: 103.65%;
+}
+
+.n_facECAPic {
+	margin-left: -0.5%;
+	/*margin-bottom: 30vh;*/
+	margin-top: -1.3%;
+	/*border:2px solid red;*/
+}
+
+.n_facECAHead {
+	/*border:2px solid red;*/
+	margin-left: -100%;
+	margin-top: -15%;
+	background-color: #224FAA;
+	color: white!important;
+	width: 70%;
+	padding: 1%;
+	padding-left: 3%;
+	font-family: alef-bold;
+}
+
+.n_facList {
+	/* background-color: #0066CC;*/
+	/* background-color: rgba(0,0,150,.3);*/
+	/*background-color: #697AC0;*/
+	background-color: #1b75bc;
+	color: #FFF;
+	margin-left: -100%;
+	margin-top: -3.3%;
+	width: 70%;
+	padding-left: 7%;
+	padding-bottom: 0.4%;
+	opacity: 0.8;
+	font-family: alef-regular;
+}
+
+@media only screen and (max-width: 600px) {
+	.n_facECAPic {
+		margin-top: 10%;
+		display: inline-block;
+	}
+	.n_facLeftCol {
+		margin-top: 10%;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.n_facECAHead {
+		margin-top: 34%;
+		margin-left: 0%;
+		border: 2px solid #224FAA;
+		line-height: 1.8;
+	}
+	.n_facList {
+		margin-left: 0%;
+		padding-bottom: 10%;
+		margin-top: -5%;
+	}
+}
+
+@media only screen and (min-width: 1700px) {
+	.n_facECAHead {
+		margin-top: -11%;
+	}
+	.n_facList {
+		margin-top: -2.4%;
+		/*border:2px solid red;*/
+		padding-bottom: 22.2%;
+	}
+}
+
+
+/*.n_facList
+{
+    
+    width:40%;
+    border:2px solid red;
+    background-color: red;
+    color:white;
+}*/
+
+@media only screen and (max-width: 600px) {
+	.n_facLeftCol {
+		/*font-size:10px;*/
+	}
+	.n_facImage {
+		display: block;
+		margin-top: 11px;
+		margin-bottom: 10px;
+	}
+}
+
+.page-template-page-principal-php {
+	margin-bottom: 0;
+}
+
+
+/* ADDITIONAL CLASS FOR THE SCHOOL BOARD
+==========================================*/
+
+.n_schoolBoardContent {
+	width: 50vw;
+	margin-left: 18vw;
+	/*border:2px solid red;*/
+	font-family: alef-regular;
+	/*font-size: 20px;*/
+}
+
+.n_schoolBoardImage {
+	width: 100%;
+	height: 85vh;
+	margin-bottom: 15vh;
+	object-fit: cover;
+}
+
+
+/* SCHOOL BOARD QUERY FOR MOBILE SCREEN*/
+
+@media only screen and (max-width: 600px) {
+	.n_schoolBoardContent {
+		width: 100%;
+		/*margin-left:10vw;*/
+		font-family: alef-regular;
+		/*font-size: 20px;*/
+		margin-left: 0;
+	}
+	.n_schoolBoardImage {
+		margin-top: 25%;
+		width: 535px;
+		height: 200px;
+		object-fit: cover;
+		margin-bottom: 0;
+	}
+}
+
+
+/* SCHOOL BOARD QUERY FOR IPAD SCREEN*/
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+	.n_schoolBoardImage {
+		margin-top: 15%;
+		width: 700px;
+		height: 400px;
+		object-fit: cover;
+		margin-bottom: 0;
+	}
+}
+
+
+/* ADDITIONAL CLASS FOR THE SCHOOL BOARD
+==========================================*/
+
+.n_mission_List {
+	font-size: 20px;
+	line-height: 2;
+}
+
+.n_missionContent {
+	width: 50vw;
+	margin-left: 15vw;
+	/*border:2px solid red;*/
+	font-family: alef-regular;
+}
+
+
+/* MISSION QUERY FOR MOBILE SCREEN*/
+
+@media only screen and (max-width: 600px) {
+	.n_missionContent {
+		width: 100%;
+		margin-left: 0;
+		/*border:2px solid red;*/
+		font-family: alef-regular;
+	}
+}
+
+
+/* ADDITIONAL CLASS FOR THE NEW DESIGNS OF FACILITIES PAGE
+===========================================================*/
+
+.n_f_leftPic {
+	margin-top: 5%;
+	/* border: 2px solid red;*/
+}
+
+.n_f_rightColumn {
+	margin-top: -35%;
+	/*border: 2px solid green;*/
+	font-family: alef-regular;
+	width: 80%;
+}
+
+.n_f_midText {
+	/*border: 2px solid blue;*/
+	margin-left: 3%;
+	width: 90%;
+	font-family: alef-regular;
+}
+
+.n_f_ECAHead {
+	font-family: alef-regular;
+	/* border: 2px solid blue;*/
+	margin-top: -50%;
+	margin-left: 15%;
+}
+
+
+/*FOR ECAHEAD BOTTOM BORDER*/
+
+.n_f_E {
+	border-bottom: 3px solid #007bff;
+	width: 25%;
+	color: white;
+	margin-top: -7%;
+	margin-left: 15.5%;
+}
+
+.n_f_newList {
+	line-height: 2;
+	font-size: 20px;
+	width: 30%;
+	margin-top: -35%;
+	margin-bottom: 10%;
+}
+
+
+/*i {
+	border: solid #007bff;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+}*/
+
+.n_right {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	font-size: 14px;
+	margin-left: 35%;
+	border: solid #007bff;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+}
+
+
+/*li
+{
+     border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+
+.glyphicon-chevron-right
+{
+    color: #007bff;
+    font-size: 14px;
+    margin-left: 20%;
+
+transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}*/
+
+.n_f_listText {
+	font-size: 20px;
+	color: black;
+	font-family: alef-regular!important;
+	margin-left: 8px;
+}
+
+#n_ECAA
+{
+    width:20vh;
+    height: 10vh;
+    color:white;
+    
+}
+
+
+/* FACILITY PAGE QUERY FOR MOBILE SCREEN*/
+
+@media only screen and (max-width: 600px) {
+	.n_schoolBoardImage {
+		width: 100vw;
+		transform: scale(1.3);
+	}
+	.n_f_midText {
+		margin-top: -15%;
+		/*border:2px solid pink;*/
+		margin-bottom: -15%;
+	}
+	.n_facilityBox {
+		display: none;
+	}
+	
+		.n_missionBox {
+		display: none;
+	}
+	.n_f_rightColumn {
+		margin-top: 10%;
+		width: 105%;
+		margin-left: -6%;
+	}
+	.n_f_rightColumnSecond {
+		margin-top: -5%;
+	}
+	.n_f_leftPic {
+		display: block;
+	}
+	.n_f_bottom_rightPic {
+		display: block;
+	}
+	.n_f_ECAHead {
+		font-family: alef-regular;
+		/*border: 2px solid blue;*/
+		margin-top: 15%;
+		margin-left: 0%;
+		width: 100%;
+		font-weight: bold;
+		display: block;
+		font-size: 22px!important;
+	}
+	.n_f_newList {
+		font-size: 14px;
+		width: 80%;
+		display: block;
+		margin-top: 5%;
+		margin-bottom: 10%;
+		/*border:2px solid red;*/
+	}
+    #n_ECAA
+{
+    width:20vh;
+    height: 4vh;
+    color:white;
+    
+}
+}
+
+
+
+
+/* FACILITY PAGE QUERY FOR IPAD SCREEN*/
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+	.n_facilityBox {
+		display: none;
+	}
+	
+		.n_missionBox {
+		display: none;
+	}
+	.n_schoolBoardImage {
+		width: 100vw;
+	}
+	.n_f_leftPic {
+		margin-top: 0%;
+	}
+	.n_f_rightColumn {
+		margin-top: 0;
+		width: 100%;
+		/*border:2px solid red;*/
+	}
+	.n_f_ECAHead {
+		font-size: 22px !important;
+		margin-bottom: 40%;
+		margin-left: 0;
+		font-weight: bold !important;
+	}
+	.n_f_E {
+		display: none;
+	}
+	.n_f_newList {
+		width: 35%;
+	}
+    
+    #n_ECAA
+{
+    width:20vh;
+    height: 5vh;
+    color:white;
+    
+}
+}
+
+
+/* FACILITY PAGE QUERY FOR LAPTOP SCREEN*/
+
+@media only screen and (min-width: 1201px) and (max-width: 1366px) {
+	.n_f_leftPic {
+		margin-top: 2%;
+		/* border: 2px solid red;*/
+	}
+	.n_f_rightColumn {
+		margin-top: 7%;
+		width: 90%;
+		/*  border:2px solid red;*/
+	}
+	.n_f_E {
+		width: 25%;
+		margin-top: -11%;
+	}
+	.n_f_hide_show {
+		display: none;
+	}
+    
+    #n_ECAA
+{
+    width:20vh;
+    height: 10vh;
+    color:white;
+}
+}
+
+.page-template-page-facilities {
+	margin-bottom: 0;
+}
+
+
+/*             CODE FOR CAMPUS PAGE 
+=====================================================*/
+
+.n_campusImage {
+	width: 100%;
+	height: 85vh;
+	margin-bottom: 15vh;
+	object-fit: cover;
+}
+
+.n_campusPic1 {
+	object-fit: cover;
+	margin-bottom: 20vh;
+	margin-left: -5%;
+	/*border:2px solid red;*/
+}
+
+.n_campusHead1 {
+	background-color: #E6E7E8;
+	padding: 50px;
+	font-family: alef-regular!important;
+}
+
+.n_campusText1 {
+	background-color: #E6E7E8;
+	padding: 50px;
+	font-family: alef-regular!important;
+	margin-top: -20%;
+}
+
+.n_campusHead2 {
+	background-color: #E6E7E8;
+	padding: 50px;
+	font-family: alef-regular!important;
+	margin-top: 10%;
+}
+
+.n_campusText2 {
+	background-color: #E6E7E8;
+	padding: 50px;
+	font-family: alef-regular!important;
+	margin-top: -20%;
+}
+
+.n_campusPic2 {
+	object-fit: cover;
+}
+
+
+/* CAMPUS PAGE QUERY FOR IPAD SCREEN*/
+
+@media only screen and (max-width: 600px) {
+	.n_schoolBoardImage {
+		width: 100vw;
+		transform: scale(1.3);
+	}
+    
+    	.n_facilityBox {
+		display: none;
+	}
+	
+		.n_missionBox {
+		display: none;
+	}
+    
+    .n_campusPic1
+    {
+     display: inline-block;
+        margin-bottom: 10%;
+    }
+    
+    
+     .n_campusHead1
+    {
+     display: inline-block;
+        margin-top: 3%;
+        margin-bottom: -10%;
+       /* border:2px solid red;*/
+        width:120%;
+        margin-left: -5%;
+      
+    }
+    
+    .n_campusText1
+    {
+         width:120%;
+        margin-left: -5%;
+        margin-top: -25%;
+    }
+    
+      .n_campusPic2
+    {
+     display: inline-block;
+        margin-bottom: 10%;
+    }
+    
+    
+     .n_campusHead2
+    {
+     display: inline-block;
+        margin-top: 3%;
+        margin-bottom: -10%;
+       /* border:2px solid red;*/
+        width:120%;
+        margin-left: -10%;
+      
+    }
+    
+     .n_campusText2
+    {
+          width:120%;
+        margin-left: -10%;
+         margin-top: -25%;
+        
+    }
+    
+}
+
+/* CAMPUS PAGE QUERY FOR IPAD SCREEN*/
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+	.n_facilityBox {
+		display: none;
+	}
+		.n_missionBox {
+		display: none;
+	}
+	.n_campusImage {
+		width: 100vw;
+	}
+	.n_campusText1 {
+		font-size: 16px!important;
+		margin-top: -35%;
+		padding: 50px;
+	}
+	.n_campusHead1 {
+		font-size: 18px!important;
+		margin-top: 0;
+		padding: 50px;
+	}
+	.n_campusPic2 {
+		margin-top: -25%;
+	}
+	.n_campusText2 {
+		font-size: 16px!important;
+		margin-top: -35%;
+		padding: 50px;
+	}
+	.n_campusHead2 {
+		font-size: 18px!important;
+		margin-top: 0;
+		padding: 50px;
+	}
+}
+
+
+/* CAMPUS PAGE QUERY FOR LAPTOP SCREEN*/
+
+@media only screen and (min-width: 1201px) and (max-width: 1366px) {
+	/*.n_campusPic1
+{
+   
+    object-fit: cover;
+    margin-bottom: 20vh;
+    margin-left: -5%;
+    
+    
+}*/
+	.n_campusHead1 {
+		font-size: 22px!important;
+		margin-top: 3%;
+	}
+	.n_campusText1 {
+		font-size: 16px!important;
+		margin-top: -25%;
+	}
+	.n_campusHead2 {
+		font-size: 22px!important;
+		margin-top: 5%;
+		width: 120%;
+	}
+	.n_campusText2 {
+		font-size: 16px!important;
+		margin-top: -27%;
+		width: 120%;
+		padding-right: 85px;
+	}
+	.n_campusPic2 {
+		object-fit: cover;
+	}
+}
+
+.page-template-page-campus {
+	margin-bottom: 0;
+}
+
+
+
+/*             CODE FOR CALENDAR PLUGIN
+=====================================================*/
+
+
+
+
+.n_calMonthHead
+{
+    text-align: center;
+    font-family: alef-bold;
+    margin-top: 3%;
+    /* border:2px solid red;*/
+    cursor: pointer!important;
+}
+
+.n_calCustom
+{
+   /* border:2px solid green;*/
+}
+
+
+.n_calMenu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*border:2px solid yellow;*/
+}
+
+.n_calMenuSingle {
+  float: left;
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: alef-regular;
+  font-size: 18px;  
+    
+}
+
+/* HIDING THE SEARCH OPTION*/
+
+.tribe-bar-date-filter
+{
+    display: none;
+}
+
+#tribe-bar-form
+{
+ background-color: white;   
+}
+
+
+/* STYLING THE CALENDAR*/
+
+/* STYLE FOR INDIVIDUAL EVENT NAME*/
+.tribe-events-month-event-title
+{
+    font-family: alef-bold!important;
+    font-size:13px!important;
+    /*border:2px solid green;*/
+}
+
+/* HIDE THE NOTICES*/
+
+.tribe-events-notices
+{
+    display: none;
+}
+/* HIDE THE EXPLORE EVNETS BUTTON BELOW*/
+/*#tribe-events .tribe-events-button, .tribe-events-button
+{
+    display: none;
+}*/
+
+/* HOVER EVENT NAME*/
+.entry-title
+{
+  font-family: alef-bold!important;  
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+.tribe-events-month-event-title
+    {
+        font-size:6px!important;
+    }
+
+}
+
+
+
+
+
+/*          FACILITIES PAGE VERSION 03
+==========================================================*/
+.n_newFacIconsList
+{
+    /*width:75%;*/
+    margin-left:10%;
+    height:auto;
+    
+}
+
+.n_newFacList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: #333;*/
+}
+
+.n_newFacSDiv
+{
+
+    margin-bottom: 3%;
+    
+}
+.n_newFacSingle {
+  float: left;
+   
+}
+
+/*
+.n_newFacDiff
+{
+    margin-top: 3%;
+    border:2px solid green;
+}
+*/
+
+.n_newFacSingle a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 20px;
+  margin: 0 auto;    
+  text-decoration: none;
+  font-family: alef-bold;
+  font-size:24px;
+  /*border:2px solid black;*/
+   
+       
+}
+
+.n_newFacSingle a:hover {
+  color:#1C75BC;
+    
+}
+
+.n_naImage
+{
+    width:70px;
+    height:auto;
+    object-fit: cover;
+    display: inline;
+}
+
+.facilities_DIV
+{
+    width:50%;
+    margin: 0 auto;
+    height:auto;
+   /* border:2px solid black;*/
+    /*background-color: #585858;*/
+    padding: 10px;
+    margin-bottom: 5%;
+    margin-top:-3%;
+    color:white;
+    font-family: alef-regular;
+    font-size: 18px;
+   /* border:2px solid red;*/
+    
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1367px)
+{
+    .facilities_DIV
+    {
+        width:65%;
+    }
+    
+    }
+
+
+.n_close {
+    position: absolute;
+    background: red;
+    color: white;
+    top: -10px;
+    right: -10px;
+    cursor: pointer;
+    /* right: -1000px;*/
+}
+
+
+/*           DESIGN FOR ECA CLUB LIST
+===================================================*/
+.n_newECAClassList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: #333;*/
+}
+
+.n_newECAClassSingle {
+
+color:white;   
+}
+
+.n_newECAClassSingle a:hover {
+  color:#1C75BC;
+    
+}
+
+.facilitiesECAList_DIV
+{
+    width:100%;
+    margin: 0 auto;
+    height:auto;
+   /* border:2px solid black;*/
+    background-color: #585858;
+    padding: 30px;
+    margin-bottom: 5%;
+    color:white;
+    font-family: alef-regular;
+    font-size: 18px;  
+}
+
+.facilitiesECALAYER_DIV
+{
+    width:30%;
+    margin: 0 auto;
+    height:auto;
+   /* border:2px solid black;*/
+    background-color: #585858;
+    padding: 30px;
+    margin-bottom: 5%;
+    color:white;
+    font-family: alef-regular;
+    font-size: 18px;  
+}
+
+.n_newECAClassSingle a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  margin: 0 auto;    
+  text-decoration: none;
+  font-family: alef-bold;
+  font-size:20px;
+   
+       
+}
+
+@media only screen and (max-width: 600px) {
+.facilities_DIV
+{
+    width:95%;
+    font-size: 14px;
+    
+    }
+    
+    .facilitiesECAList_DIV
+{
+    width:95%;
+    font-size: 14px;
+    
+
+} 
+
+    .facilitiesECALAYER_DIV
+{
+    width:95%;
+    font-size: 14px;
+    
+
+} 
+    .n_newECAClassSingle a
+    {
+        font-size: 16px;
+        padding: 5px 5px;
+    }
+    
+    .n_newFacIconsList
+{
+    margin-left: 4%;   
+}
+}
+
+/* CODE FOR UTTARA CAMPUS MAP*/
+
+.n_map
+{
+    width:100%;
+    margin:0 auto;
+    height:90vh;
+   /* border:2px solid black;*/
+}
+
+.n_googleMap
+{
+   
+}
+
+.n_gmap_canvas {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.n_gmap_canvas iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 55% !important;
+}
+.page-template-page-uttara {
+	margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    .n_map
+    {
+        height: 40vh;
+        border:2px solid red;
+    }
+    .n_googleMap
+    {
+        height: 40vh;
+        border:2px solid black;
+    }
+}
+
+.n_all
+{
+    background-color:red!important;
+    color:white!important;
+}
+
+.n_success
+{
+    background-color:#009688!important;
+    color:white!important;
+}
+
+.n_grey
+{
+      background-color:#616161!important;
+    color:white!important;
+}
+
+.n_middle
+{
+     background-color:#ff5722!important;
+    color:white!important;
+}
+
+.n_senior
+{
+     background-color:#607d8b!important;
+    color:white!important;
+}
+
+.n_holidays
+{
+     background-color:#52a860!important;
+    color:white!important;
+
+/*         CSS of Sunbeam's Legacy goes here
+=============================================================*/
+
+
+
+.page-template-page-legacy
+{
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+.n_differentfullLegacy
+    {
+        width:90%;
+        margin:0 auto;
+        height:100%;
+        margin-top: 5%;
+    }
+    
+   .n_differentfullHolidays
+    {
+       border:2px solid red;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+
+.n_differentfullLegacy
+    {
+        width:90%;
+        margin:0 auto;
+        height:100%;
+        margin-top: -10%;
+    }
+    
+    
+    .n_differentfullHolidays
+    {
+        width:90%;
+        margin:0 auto;
+        height:100%;
+        margin-top: 5%;
+    }
+}
+
+.n_table
+{
+    border: 1px solid black;
+}
+
+

@@ -1,0 +1,1313 @@
+/*=======================
+======Importing fonts===
+=========================*/
+@font-face {
+  font-family: futura-medium;
+  src: url(font/futuramediumbt.ttf);
+}
+
+@font-face {
+  font-family: alef-bold;
+  src: url(font/Alef-Bold.ttf);
+}
+
+
+@font-face {
+  font-family: alef-regular;
+  src: url(font/Alef-Regular.ttf);
+}
+
+
+@font-face {
+  font-family: cen;
+  src: url(font/CENSCBK.ttf);
+}
+
+
+@font-face {
+  font-family: din;
+  src: url(font/DINEngschriftStd.ttf);
+}
+/*========================
+=======Normalizing Css====
+=========================*/
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+/*========================
+=======Top Navbar ========
+=========================*/
+.o_top_nav_wrapper{
+  width: 90%;
+  height: 80px;
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  margin-left: 5%;
+  margin-right: 5%; 
+  z-index: 6;
+  -webkit-transition: all ease-out .3s;
+  -ms-transition: all ease-out .3s;
+  transition: all ease-out .3s;
+}
+.o_navbar_top_logo{
+  height: 70px;
+  width: 140px;
+  object-fit: cover;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-bottom: 5px;
+  float: left;
+}
+.o_topbar_right_menu_wrapper{
+  text-align: right;
+}
+.o_topbar_right_menu_wrapper ul{
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.o_topbar_right_menu_wrapper ul li{
+  height: 15px;
+  line-height: 15px;
+  list-style: none;
+  display: inline-block;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  font-family: alef-regular;
+  font-weight: 600;
+  border-right: 1px solid #ffffff;
+  cursor: pointer;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+#o_top_quick_menu_button, #o_top_call_menu_button, #o_top_visit_menu_button{
+  font-family: alef-regular;
+}
+.o_topbar_right_menu_wrapper ul li:last-child{
+  border: none;
+}
+.o_topbar_right_menu_wrapper ul li:last-child:after{
+  content: none;
+}
+.o_topbar_right_menu_wrapper ul li:after{
+  margin-top: 5px;
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ED1D24;
+  transition: width .3s;
+}
+.o_topbar_right_menu_wrapper ul li:hover:after, .o_topbar_right_menu_wrapper ul li:active:after{
+  width: 100%
+}
+.o_icon{
+  margin-right: 5px;
+  font-size: 10px;
+}
+.o_search_icon{
+  font-size: 14px;
+}
+.o_search_icon:hover{
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: all ease-out .3s;
+  -ms-transition: all ease-out .3s;
+  transition: all ease-out .3s;
+  color:  #ED1D24;
+}
+/*=========================
+===Hamburger Menu==========
+===========================*/
+.o_hamburger_container{
+  float: left;
+  margin-top: 35px;
+  margin-left: 0px;
+  
+}
+.o_hamburger_bar{
+  width: 32px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.o_hamburger_container:hover{
+cursor: pointer;
+}
+.o_hamburger_container:hover > .o_hamburger_bar{
+background-color: #ED1D24;
+}
+.o_hamburger_menu_change .o_hamburger_bar1 {
+  -webkit-transform: rotate(-45deg) translate(-5px, 5px);
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.o_hamburger_menu_change .o_hamburger_bar2 {
+  opacity: 0;
+}
+
+.o_hamburger_menu_change .o_hamburger_bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+/*.o_all_menu_wrap{*/
+/*  width: 90%;*/
+/*  height: 100vh;*/
+/*  margin: 0 5%;*/
+/*  position: fixed;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  z-index: 0;*/
+/*  -webkit-transition: 0.5s;*/
+/*  -ms-transition: 0.5s;*/
+/*  transition: 0.5s;*/
+/*}*/
+.o_left_menu{
+  background-color: rgba(0,0,0,0.4);
+  height: 100vh;
+  width: 25%;
+  margin-top: 80px;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  -webkit-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+  margin-left: -1500px;
+}
+.o_left_menu_logo{
+  height: 70px;
+  width: 140px;
+  object-fit: cover;
+  margin-top: 10px;
+  margin-left: 40px;
+  padding-bottom: 5px;
+}
+.o_left_menu_cross{
+  font-size: 20px;
+  font-family: alef-regular;
+  background: none;
+  color: #ffffff;
+  text-align: left;
+  padding: 0;
+  border: none;
+  font-weight: 600;
+  display: block;
+  margin-top: 50px;
+}
+.o_left_menu_cross p:hover{
+  color: #ED1D24;
+  border-color: #ED1D24;
+  cursor: pointer;
+}
+.o_left_menu_cross p{
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ffffff;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50px;
+  margin-left: 50px;
+}
+.o_top_quick_menu ul{
+  margin-top: 60px;
+}
+.o_top_quick_menu ul li{
+  list-style: none;
+  transition: height .3s;
+}
+.o_top_quick_menu ul li a{
+  color: #ffffff;
+  padding-bottom: 15px;
+  font-size: 1.7em;
+  font-family: alef-regular;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+.o_header_main_menu ul{
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-bottom: 0px;
+}
+.o_header_main_menu ul li a{
+  font-size: 1.2em;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: alef-regular;
+}
+.o_header_main_menu ul li a:hover{
+  color: #ED1D24;
+}
+.o_header_main_menu ul li a:only-child:after {
+  content: "";
+}
+
+.o_header_main_menu ul li a:hover::after{
+  width: 80%;
+}
+.o_header_main_menu ul li ul{
+  position: fixed;
+  top: 80px;
+  z-index: 9;
+  width: auto;
+  margin-top: 0;
+  background-color: rgba(190, 190, 190, 0.9);
+  padding-right: 2%;
+  display: none;
+  text-align: left;
+  -webkit-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+.o_topbar_right_menu_wrapper ul li ul li{
+  border-right: none;
+  border-bottom: none;
+}
+.o_header_main_menu ul li:hover > ul{
+  display: block;
+}
+.o_header_main_menu ul li ul li{
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.o_header_main_menu ul li ul li a{
+  color: #4d4d4f;
+  font-size: 1.1em;
+}
+.o_header_main_menu ul li ul li a:hover{
+  color: #ED1D24;
+}
+.o_header_main_menu ul li ul li a:after{
+  display: none;
+}
+/* =============================
+========Top Quick Menu==========
+================================ */
+.o_top_quick_menu{
+  background-color: rgba(0,0,0,0.4);
+  height: 100vh;
+  width: 25%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  margin-right: 5%;
+  -webkit-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+  margin-top: -1500px;
+  border-top: 1px solid  rgba(255,255,255,0.8);
+}
+.o_top_quick_menu ul li{
+  margin-bottom: 20px;
+  transition: height .3s;
+}
+/* =================================
+========Top Call menu===============
+==================================== */
+.o_top_call_menu{
+  background-color: rgba(0,0,0,0.4);
+  border-top: 1px solid  rgba(255,255,255,0.8);
+  height: 100vh;
+  width: 25%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 4;
+  margin-right: 5%;
+  -webkit-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+  margin-top: -1500px;
+}
+/* ===========================
+=========Top Visit menu=======
+============================== */
+.o_top_visit_menu{
+  background-color: rgba(0,0,0,0.4);
+  border-top: 1px solid  rgba(255,255,255,0.8);
+  height: 100vh;
+  width: 25%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 6;
+  margin-right: 5%;
+  -webkit-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+  margin-top: -1500px;
+}
+/*========================
+=======Slider============
+=========================*/
+.o_featured_slider{
+  width: 90%;
+  margin: 0 auto;
+}
+.o_slider, .o_slider_img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-color: #ED1D24;
+  height: 40px;
+  width: 20px;
+}
+.carousel-indicators li{
+  height: 10px;
+  width: 10px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.carousel-indicators .active{
+  background-color: #ED1D24;
+}
+
+/*=============================
+====Welcome Section============
+===============================*/
+.o_homepage_heading{
+    text-align: center;
+    font-family: futura-medium;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    color: #909090;
+}
+.o_welcome_text_container{
+    width: 50%;
+    margin: 0 auto;
+}
+.o_welcome_text_container p{
+    font-size: 1.3rem;
+    font-family: alef-regular;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/*=============================
+====About US Section============
+===============================*/
+.o_about_us_container_margin{
+  width: 90%;
+  margin: 0 auto;
+}
+.o_about_us_section_wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.o_about_us_col{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.o_about_us_col_img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    -webkit-transition: all ease-out .3s;
+    -ms-transition: all ease-out .3s;
+    transition: all ease-out .3s;
+}
+.o_about_us_col_img:hover, .o_facilities_home_img img:hover, .o_home_admission_left_img:hover, .o_home_admission_img_right img:hover, 
+.o_home_newsletter_img:hover, .o_home_academic_section_img img:hover{
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+.o_about_us_col h2{
+    font-family: alef-regular;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #1c75bc;
+}
+.o_about_us_col a{
+    text-decoration: none;
+}
+.o_about_us_read_more{
+    width: 100px;
+    text-align: left;
+    font-family: alef-regular;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #4d4d4f;
+    margin-bottom: 20px;
+}
+.o_about_us_read_more:after{
+  margin-top: 5px;
+  content: '';
+  display: block;
+  width: 40%;
+  height: 3px;
+  background: #1c75bc;
+  transition: width .3s;
+}
+.o_about_us_read_more:hover:after{
+    width: 100%;
+}
+/* =============================
+======Facilities section========
+============================== */
+.o_home_facilities_section_container{
+ margin-top: 5%;
+}
+.o_facilites_text_container_wrapper{
+  margin: 0 0; 
+}
+.o_facilites_text_container{
+  margin-right: 100px;
+  background-color: #E6E7E8;
+  padding-left: 15%;
+  padding-right: 8%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-top: 40px;
+}
+.o_home_facilities_left{
+  padding-left: 0;
+}
+.o_home_facilities_right{
+  padding-right: 0;
+}
+.o_facilites_text_headline{
+  font-family: alef-regular;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #1c75bc;
+  padding-bottom: 20px;
+}
+.o_facilites_text_headline_conflict_fix a{
+  font-family: alef-regular;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #1c75bc;
+}
+.o_facilites_text_content{
+  font-family: alef-regular;
+  padding-bottom: 40px;
+}
+.o_facilities_eca_link, .o_facilities_eca_link:visited{
+  color: #4D4D4F;
+  font-family: alef-regular;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.o_facilities_eca_link:after{
+  margin-top: 5px;
+  content: '';
+  display: block;
+  width: 10%;
+  height: 3px;
+  background: #1c75bc;
+  transition: width .3s;
+}
+.o_facilities_eca_link:hover:after{
+  width: 20%;
+}
+.o_facilities_eca_link:hover{
+  text-decoration: none;
+}
+.o_facilities_home_img img{
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  -webkit-transition: all ease-out .3s;
+  -ms-transition: all ease-out .3s;
+  transition: all ease-out .3s;
+}
+/* =================================
+======Home admission section ======
+===================================*/
+
+.o_home_admission_container{
+  width: 90%;
+  margin: 8% auto;
+}
+.o_home_admission_left_img{
+  height: 720px;;
+  width: 100%;
+  object-fit: cover;
+  -webkit-transition: all ease-out .3s;
+  -ms-transition: all ease-out .3s;
+  transition: all ease-out .3s;
+}
+.o_home_admission_right_container{
+  padding-left: 10%;
+}
+.o_home_admission_text_content{
+  width: 70%;
+  margin-bottom: 7%;
+  font-family: alef-regular;
+}
+.o_home_admission_link_buttons{
+  width: 33%;
+  float: left;
+  font-weight: 400;
+}
+.o_home_admission_link_buttons:after{
+  margin-top: 5px;
+  content: '';
+  display: block;
+  width: 30%;
+  height: 3px;
+  background: #1c75bc;
+  transition: width .3s;
+}
+.o_home_admission_link_buttons:hover:after{
+  width: 70%;
+}
+.o_home_admission_img_right img{
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  margin-top: 10%;
+  -webkit-transition: all ease-out .3s;
+  -ms-transition: all ease-out .3s;
+  transition: all ease-out .3s;
+}
+/* =================================
+======Home Gallery section ======
+===================================*/
+.o_home_gallery_container{
+  background-color: #E6E7E8;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 3%; 
+}
+.o_home_gallery_wrapper{
+  width: 85%;
+  margin: 0 auto;
+}
+.o_home_gallery_container h4{
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 2%;
+  font-size: 1.7rem;
+  font-family: alef-regular;
+  font-weight: 800;
+  color:  #1c75bc;
+  padding-left: 15px;
+}
+.o_home_gallery_wrapper{
+  margin-top: 2%;
+}
+.o_gallery_video_img{
+  height: 55vh;
+  width: 100%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.o_home_gallery_photo_container{
+  text-align: center;
+}
+.o_home_gallery_photo{
+  width: 75%;
+  margin: 0 auto;
+  object-fit: cover;
+  margin-left: 25%; 
+  margin-bottom: 4%;
+}
+.o_home_gallery_photo img{
+  height: 26vh;
+  width: 100%;
+  object-fit: cover;
+}
+/* =================================
+======Home News and notice section ======
+===================================*/
+.o_home_news_notice_container{
+  width: 90%;
+  margin: 0 auto;
+}
+.o_home_news_column{
+  text-align: center;
+}
+.o_home_newsletter_img{
+  width: 100%;
+  height: 35vh;
+  object-fit: cover;
+  padding-right: 10px;
+  -webkit-transition: all ease-out .3s;
+  -ms-transition: all ease-out .3s;
+  transition: all ease-out .3s;
+}
+.o_home_news_column a{
+  text-decoration: none;
+}
+.o_home_newsletter_heading{
+  text-align: left;
+  margin-top: 5%;
+  font-size: 1.1rem;
+  font-family: alef-regular;
+  font-weight: 600;
+  color: #1c75bc;
+}
+.o_home_noticeboard_heading{
+  margin-top: 0px;
+  padding-left: 10px;
+}
+
+.o_home_newsletter_heading:after{
+  margin-top: 5px;
+  content: '';
+  display: block;
+  width: 10%;
+  height: 3px;
+  background: #1c75bc;
+  transition: width .3s;
+}
+.o_home_newsletter_heading:hover:after{
+  width: 20%;
+}
+.o_home_notice_wrap{
+  width: 80%;
+  padding-left: 10px;
+  text-align: left;
+  border-bottom: 1px solid #1c75bc;
+  margin-bottom: 20px;
+}
+.o_home_notice_wrap:last-child{
+  border: none;
+}
+.o_home_notice_date{
+  font-size: 14px;;
+  font-family: alef-regular;
+}
+.o_home_notice_title a{
+  font-size: 17px;
+  font-family: alef-regular;
+  color: #000000;
+}
+.o_home_notice_title a:hover{
+  color: #1c75bc;
+}
+.o_home_notice_blurb{
+  font-size: 14px;
+  font-family: alef-regular;
+  line-height: 22px;
+  word-spacing: 2px;
+}
+/* =======================================
+========Home Academic Calender Section====
+========================================== */
+.o_home_academic_section_container{
+  width: 90%;
+  margin: 5% auto;
+}
+.o_home_academic_section_img img{
+  -webkit-transition: all ease-out .3s;
+  -ms-transition: all ease-out .3s;
+  transition: all ease-out .3s;
+}
+.o_home_academic_text_content{
+  width: 80%;
+  font-family: alef-regular;
+}
+.o_home_academic_calender_text_wrap{
+  margin-left: 40px;
+  margin-top: 12px;
+  margin-right: 10%;
+  background-color: #E6E7E8;
+  padding-top: 10%;
+  padding-bottom: 20%;
+  padding-left: 12%; 
+  padding-right: 0%; 
+}
+.o_home_academic_right{
+  margin-left: -20px;
+}
+.o_home_academic_read_more{
+  float: right;
+  margin-top: 50px;
+}
+/* ==============================================
+==========Home Campus Section====================
+================================================= */
+.o_home_campus_container{
+  width: 60%;
+  margin: 0 auto;
+}
+.o_home_campus_content_wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+.o_home_campus_content{
+  font-size: 18px;
+  font-family: alef-regular;
+  margin-bottom: 80px;
+}
+.o_campus_button_wrapper{
+  width: 50%;
+  margin: 0 auto;
+}
+.o_home_campus_link_buttons{
+  font-size: 20px;
+  width: 50%;
+  padding-left: 60px;
+}
+.o_home_campus_link_buttons:after{
+  width: 20%;
+}
+.o_home_campus_link_buttons:hover::after{
+  width: 40%;
+}
+.o_home_campus_section_img img{
+  margin-top: 50px;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+/* ==================================================
+===========Home Alumni Section=======================
+===================================================== */
+.o_home_alumni_container{
+  width: 90%;
+  margin: 100px auto;
+  margin-bottom: 100px;
+}
+.o_home_alumni_container a{
+  text-decoration: none;
+}
+.o_home_alumni_section_img img{
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+.o_home_alumni_section_img img{
+  -webkit-transition: all ease-out .3s;
+  -ms-transition: all ease-out .3s;
+  transition: all ease-out .3s;
+}
+.o_home_alumni_text_container{
+  margin-left: 10px;
+}
+.o_home_alumni_title{
+  margin-top: 0%;
+  text-align: left; 
+}
+.o_home_alumni_content{
+  padding-top: 10px;
+}
+.o_alumni_read_more{
+  margin-top: -50px;
+}
+/* =================================
+=====Footer Headline===============
+=================================== */
+.o_footer_wrap{
+  background-color: #E6E7E8;
+  width: 90%;
+  margin: 0 auto;
+}
+.o_footer_container{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 5%;
+  padding-bottom: 20px;
+}
+.o_footer_headline{
+  font-size: 1.4rem;
+  font-family: alef-bold;
+  font-weight: 400;
+  text-align: left; 
+  color: #1C75BC;
+}
+.o_footer_sub_title{
+  color: #000000;
+  font-family: alef-regular;
+  font-weight: 800;
+  font-size: 1.1rem;
+  margin-bottom: 0px;
+}
+.o_footer_paragraph{
+  color: #000000;
+  font-family: alef-regular;
+  font-size: 1rem;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+.o_footer_admission_paragraph{
+  font-size: 1rem;
+  font-family: alef-regular;
+}
+.o_footer_admission_paragraph span{
+  color: #1C75BC;
+  border-bottom: 1px solid #1C75BC;
+}
+.o_footer_logo{
+  width: 260px;
+  height: 120px;
+  object-fit: cover;
+  margin-left: -30px;
+}
+
+.o_footer_developer{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #8A8C8E;
+  text-align: center;
+  vertical-align: middle;
+}
+.o_footer_developer_text{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000000;
+  font-family: alef-regular;
+  margin-bottom: 0px; 
+}
+.o_footer_omni_logo{
+  width: 113px;
+  height: 17px;
+  object-fit: cover;
+  -webkit-transition: all ease-out .3s;
+  -ms-transition: all ease-out .3s;
+  transition: all ease-out .3s;
+}
+.o_footer_omni_logo:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* ======================================
+=========Footer Quick Info menu==========
+========================================== */
+.o_footer_quick_info_menu_wrap ul{
+  margin: 0px;
+  padding: 0px;
+}
+.o_footer_quick_info_menu_wrap ul li{
+  list-style: none;
+  padding-bottom: 8px;
+}
+.o_footer_quick_info_menu_wrap ul li a{
+  font-size: 1rem;
+  font-family: alef-regular;
+  color: #000000;
+}
+.o_footer_quick_info_menu_wrap ul li a:hover{
+  color: #1C75BC;
+  cursor: pointer;
+}
+.o_footer_copyright_symbol{
+  margin-top: 20px;
+}
+
+
+/*===========================================================================================================================================================================================
+================================================================Media Query==================================================================================================================
+=============================================================================================================================================================================================*/
+
+/* //Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .o_top_nav_wrapper{
+        width: 96%;
+        margin: 0 2%;
+        height: 60px;
+        background-color: rgba(0,0,0,0.7);
+    }
+    .o_navbar_top_logo{
+        width: 90px;
+        height: 50px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .o_topbar_right_menu_wrapper ul{
+        margin-right: 20px;
+    }
+    .o_topbar_right_menu_wrapper ul li{
+        font-size: 10px;
+        height: 12px;
+        line-height: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .o_icon{
+        margin-right: 3px;
+        font-size: 7px;
+    }
+    .o_search_icon{
+        font-size: 14px;
+    }
+    .o_hamburger_container{
+        margin-top: 22px;
+        margin-left: 5px;
+    }
+    .o_topbar_right_menu_wrapper ul li{
+        display: none;
+    }
+    .o_topbar_right_menu_wrapper ul li:last-child{
+        display: block;
+    }
+    .o_hamburger_bar1{
+        width: 25px;
+        height: 2px;
+        margin: 4px 0;
+    }
+    .o_featured_slider{
+        width: 96%;
+        margin: 0 auto; 
+    }
+    .o_slider{
+        margin-top: 60px;
+    }
+    .o_slider, .o_slider_img{
+        height: 30vh;
+    }
+    /*=============================
+====Welcome Section============
+===============================*/
+    .o_homepage_heading{
+        font-size: 36px;
+    }
+    .o_welcome_text_container{
+        width: 90%;
+    }
+    .o_welcome_text_container p{
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+       /*=============================
+====Facilities Section============
+===============================*/
+    .o_home_facilities_left{
+      padding-right: 0px;
+      margin-bottom: 10px;
+    } 
+    .o_facilites_text_container{
+      width: 100%;
+      padding-left: 8%;
+    }
+    .o_home_facilities_right{
+      padding-left: 0px;
+    }
+    .o_facilities_home_img img{
+      height: 35vh;
+    }
+    .o_facilites_text_content{
+        padding-bottom: 0px;
+    }
+    
+    /*------------------------------------
+    ----------------------------------------
+    --------------------------------------*/
+    .o_home_admission_left_img {
+      height: 380px;
+    }
+    .o_home_admission_right_container {
+      padding-left: 5%;
+    }
+    .o_home_admission_text_content{
+      width: 100%;
+    }
+    .o_home_admission_link_buttons {
+      width: 45%;
+    }
+    .o_home_academic_right {
+      margin-left: 0px;
+    }
+    .o_home_academic_calender_text_wrap {
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 10%;
+        padding-bottom: 15%;
+        padding-left: 12%;
+        padding-right: 0%;
+
+    }
+    .o_home_academic_read_more {
+        float: left;
+        margin-top: 0;
+    }
+    .o_gallery_video_img {
+        height: 22vh;
+    }
+    .o_home_gallery_photo_container {
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .o_home_gallery_wrapper{
+        width: 95%;
+    }
+    .o_home_gallery_photo{
+        width: 100%;
+        margin-left: 5%;
+        padding-right: 5%;
+    }
+    .o_home_gallery_photo img{
+        height: 25vh;
+        width: 100%;
+    }
+    .o_home_campus_container {
+        width: 100%;
+    }
+    .o_home_campus_content_wrapper {
+        width: 95%;
+    }
+    .o_campus_button_wrapper {
+        width: 100%;
+    }
+    .o_home_campus_link_buttons{
+        width: 50%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .o_home_campus_content {
+        font-size: 16px;
+    }
+    .o_home_campus_section_img img{
+        height: 28vh;
+    }
+    .o_home_alumni_section_img{
+        margin-top: -50px;
+    }
+    .o_home_alumni_section_img img{
+        height: 28vh;
+    }
+    .o_footer_wrap {
+        width: 96%;
+        margin: 0 2%;
+    }
+    .o_footer_developer {
+        width: 96%;
+    }
+
+}
+
+
+/* //Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+
+}
+@media (max-width: 800px) {
+    .o_topbar_right_menu_wrapper{
+        display: none;
+    }
+}
+
+/* //Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    .o_topbar_right_menu_wrapper{
+        display: none;
+    }
+     .o_top_nav_wrapper{
+        width: 96%;
+        margin: 0 2%;
+        height: 60px;
+        background-color: rgba(0,0,0,0.7);
+    }
+    .o_navbar_top_logo{
+        width: 90px;
+        height: 50px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .o_topbar_right_menu_wrapper ul{
+        margin-right: 20px;
+    }
+    .o_topbar_right_menu_wrapper ul li{
+        font-size: 10px;
+        height: 12px;
+        line-height: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .o_icon{
+        margin-right: 3px;
+        font-size: 7px;
+    }
+    .o_search_icon{
+        font-size: 14px;
+    }
+    .o_hamburger_container{
+        margin-top: 22px;
+        margin-left: 5px;
+    }
+    .o_topbar_right_menu_wrapper ul li{
+        display: none;
+    }
+    .o_topbar_right_menu_wrapper ul li:last-child{
+        display: block;
+    }
+    .o_hamburger_bar1{
+        width: 25px;
+        height: 2px;
+        margin: 4px 0;
+    }
+    .o_featured_slider{
+        width: 96%;
+        margin: 0 auto; 
+    }
+    .o_slider{
+        margin-top: 60px;
+    }
+    .o_slider, .o_slider_img{
+        height: 30vh;
+    }
+    /*=============================
+====Welcome Section============
+===============================*/
+    .o_homepage_heading{
+        font-size: 36px;
+    }
+    .o_welcome_text_container{
+        width: 90%;
+    }
+    .o_welcome_text_container p{
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+       /*=============================
+====Facilities Section============
+===============================*/
+    .o_home_facilities_left{
+      padding-right: 0px;
+      margin-bottom: 10px;
+    } 
+    .o_facilites_text_container{
+      width: 100%;
+      padding-left: 8%;
+    }
+    .o_home_facilities_right{
+      padding-left: 0px;
+    }
+    .o_facilities_home_img img{
+      height: 35vh;
+    }
+    .o_facilites_text_content{
+        padding-bottom: 0px;
+    }
+    
+    /*------------------------------------
+    ----------------------------------------
+    --------------------------------------*/
+    .o_home_admission_left_img {
+      height: 380px;
+    }
+    .o_home_admission_right_container {
+      padding-left: 5%;
+    }
+    .o_home_admission_text_content{
+      width: 100%;
+    }
+    .o_home_admission_link_buttons {
+      width: 45%;
+    }
+    .o_home_academic_right {
+      margin-left: 0px;
+    }
+    .o_home_academic_calender_text_wrap {
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 10%;
+        padding-bottom: 15%;
+        padding-left: 12%;
+        padding-right: 0%;
+
+    }
+    .o_home_academic_read_more {
+        float: left;
+        margin-top: 0;
+    }
+    .o_gallery_video_img {
+        height: 22vh;
+    }
+    .o_home_gallery_photo_container {
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .o_home_gallery_wrapper{
+        width: 95%;
+    }
+    .o_home_gallery_photo{
+        width: 100%;
+        margin-left: 5%;
+        padding-right: 5%;
+    }
+    .o_home_gallery_photo img{
+        height: 25vh;
+        width: 100%;
+    }
+    .o_home_campus_container {
+        width: 100%;
+    }
+    .o_home_campus_content_wrapper {
+        width: 95%;
+    }
+    .o_campus_button_wrapper {
+        width: 100%;
+    }
+    .o_home_campus_link_buttons{
+        width: 50%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .o_home_campus_content {
+        font-size: 16px;
+    }
+    .o_home_campus_section_img img{
+        height: 28vh;
+    }
+    .o_home_alumni_section_img{
+        margin-top: -50px;
+    }
+    .o_home_alumni_section_img img{
+        height: 28vh;
+    }
+    .o_footer_wrap {
+        width: 96%;
+        margin: 0 2%;
+    }
+    .o_footer_developer {
+        width: 96%;
+    }
+    
+    
+}
+
+/* /Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+    
+}
+/* /Large devices (desktops, less than 1200px)*/
+@media (min-width: 1600px) {
+    .o_navbar_top_logo{
+        margin-left: 15%;
+    }
+    .o_topbar_right_menu_wrapper ul li{
+      height: 20px;
+      line-height: 20px;
+      font-size: 15px;
+    }
+    .o_topbar_right_menu_wrapper ul{
+      margin-right: 5%;
+    }
+}

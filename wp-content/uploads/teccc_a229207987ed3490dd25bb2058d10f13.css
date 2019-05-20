@@ -1,0 +1,412 @@
+/* The Events Calendar Category Colors 6.1.1 */
+.teccc-legend a, .tribe-events-calendar a, #tribe-events-content .tribe-events-tooltip h4 {
+	font-weight: normal;
+}
+
+.tribe-events-list .vevent.hentry h2 {
+	padding-left: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+	.tribe-events-calendar td .hentry,
+	.tribe-events-calendar td .type-tribe_events {
+		display: block;
+	}
+
+	h3.entry-title.summary,
+	h3.tribe-events-month-event-title,
+	.tribe-events-calendar .tribe-events-has-events:after {
+		display: none;
+	}
+
+	.tribe-events-calendar .mobile-trigger .tribe-events-tooltip {
+		display: none !important;
+	}
+}
+
+
+	
+				.tribe-events-category-dhanmondi-branch h2.tribe-events-list-event-title.entry-title a,
+.tribe-events-category-dhanmondi-branch h2.tribe-events-list-event-title a,
+.tribe-events-category-dhanmondi-branch h3.tribe-events-list-event-title a,
+.tribe-event-featured .tribe-events-category-dhanmondi-branch h3.tribe-events-list-event-title a,
+.tribe-events-list .tribe-events-loop .tribe-event-featured.tribe-events-category-dhanmondi-branch h3.tribe-events-list-event-title a,
+	.tribe-events-shortcode .tribe-events-month table .type-tribe_events.tribe-events-category-dhanmondi-branch,
+		.tribe-events-list-widget li.tribe-events-category-dhanmondi-branch a:link,
+.tribe-events-list-widget li.tribe-events-category-dhanmondi-branch a:visited,
+li.tribe-events-list-widget-events.tribe-events-category-dhanmondi-branch a:link,
+li.tribe-events-list-widget-events.tribe-events-category-dhanmondi-branch a:visited,
+	.tribe-events-list .tribe-events-loop .tribe-event-featured.tribe-events-category-dhanmondi-branch h3.tribe-events-list-event-title a:hover,
+#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-events-category-dhanmondi-branch.tribe-event-featured h3.tribe-events-month-event-title a:hover,
+#tribe-events-content table.tribe-events-calendar .tribe-event-featured.tribe-events-category-dhanmondi-branch .tribe-events-month-event-title a,
+.teccc-legend .tribe-events-category-dhanmondi-branch a,
+.tribe-events-calendar .tribe-events-category-dhanmondi-branch a,
+#tribe-events-content .teccc-legend .tribe-events-category-dhanmondi-branch a,
+#tribe-events-content .tribe-events-calendar .tribe-events-category-dhanmondi-branch a,
+.type-tribe_events.tribe-events-category-dhanmondi-branch h2 a,
+.tribe-events-category-dhanmondi-branch > div.hentry.vevent > h3.entry-title a,
+.tribe-events-mobile.tribe-events-category-dhanmondi-branch h4 a {
+		color: #fff;
+	text-decoration: none;
+}
+
+				.tribe-events-category-dhanmondi-branch h3.tribe-events-list-event-title,
+			.tribe-events-shortcode .tribe-events-month table .type-tribe_events.tribe-events-category-dhanmondi-branch,
+	.tribe-events-list-widget li.tribe-events-category-dhanmondi-branch h4,
+li.tribe-events-list-widget-events.tribe-events-category-dhanmondi-branch h4,
+.events-archive.events-gridview #tribe-events-content table .type-tribe_events.tribe-events-category-dhanmondi-branch,
+.teccc-legend .tribe-events-category-dhanmondi-branch,
+.tribe-events-calendar .tribe-events-category-dhanmondi-branch,
+#tribe-events-content .tribe-events-category-dhanmondi-branch > .tribe-events-tooltip h3,
+.type-tribe_events.tribe-events-category-dhanmondi-branch h2,
+.tribe-events-category-dhanmondi-branch > div.hentry.vevent > h3.entry-title,
+.tribe-events-mobile.tribe-events-category-dhanmondi-branch h4 {
+		background-color: #3f51b5;
+		border-left: 5px solid #000000;
+	border-right: 5px solid transparent;
+		color: #fff;
+	line-height: 1.4em;
+	padding-left: 5px;
+	padding-bottom: 2px;
+}
+
+	.tribe-events-calendar .tribe-event-featured.tribe-events-category-dhanmondi-branch,
+#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-event-featured.tribe-events-category-dhanmondi-branch,
+.tribe-grid-body div[id*='tribe-events-event-'][class*='tribe-events-category-'].tribe-events-week-hourly-single.tribe-event-featured 
+{ border-right: 5px solid #0ea0d7 }
+
+	
+		.tribe-events-list-widget li.tribe-events-category-dhanmondi-branch a:link,
+.tribe-events-list-widget li.tribe-events-category-dhanmondi-branch a:visited,
+li.tribe-events-list-widget-events.tribe-events-category-dhanmondi-branch a:link,
+li.tribe-events-list-widget-events.tribe-events-category-dhanmondi-branch a:visited,
+	.tribe-events-category-dhanmondi-branch h2.tribe-events-list-event-title.entry-title a,
+.tribe-events-category-dhanmondi-branch h2.tribe-events-list-event-title a,
+.tribe-events-category-dhanmondi-branch h3.tribe-events-list-event-title a,
+.tribe-event-featured .tribe-events-category-dhanmondi-branch h3.tribe-events-list-event-title a,
+.tribe-events-list .tribe-events-loop .tribe-event-featured.tribe-events-category-dhanmondi-branch h3.tribe-events-list-event-title a,
+{
+	width: auto;
+	display: block;
+}
+	
+				.tribe-events-category-junior-section h2.tribe-events-list-event-title.entry-title a,
+.tribe-events-category-junior-section h2.tribe-events-list-event-title a,
+.tribe-events-category-junior-section h3.tribe-events-list-event-title a,
+.tribe-event-featured .tribe-events-category-junior-section h3.tribe-events-list-event-title a,
+.tribe-events-list .tribe-events-loop .tribe-event-featured.tribe-events-category-junior-section h3.tribe-events-list-event-title a,
+	.tribe-events-shortcode .tribe-events-month table .type-tribe_events.tribe-events-category-junior-section,
+		.tribe-events-list-widget li.tribe-events-category-junior-section a:link,
+.tribe-events-list-widget li.tribe-events-category-junior-section a:visited,
+li.tribe-events-list-widget-events.tribe-events-category-junior-section a:link,
+li.tribe-events-list-widget-events.tribe-events-category-junior-section a:visited,
+	.tribe-events-list .tribe-events-loop .tribe-event-featured.tribe-events-category-junior-section h3.tribe-events-list-event-title a:hover,
+#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-events-category-junior-section.tribe-event-featured h3.tribe-events-month-event-title a:hover,
+#tribe-events-content table.tribe-events-calendar .tribe-event-featured.tribe-events-category-junior-section .tribe-events-month-event-title a,
+.teccc-legend .tribe-events-category-junior-section a,
+.tribe-events-calendar .tribe-events-category-junior-section a,
+#tribe-events-content .teccc-legend .tribe-events-category-junior-section a,
+#tribe-events-content .tribe-events-calendar .tribe-events-category-junior-section a,
+.type-tribe_events.tribe-events-category-junior-section h2 a,
+.tribe-events-category-junior-section > div.hentry.vevent > h3.entry-title a,
+.tribe-events-mobile.tribe-events-category-junior-section h4 a {
+		color: #fff;
+	text-decoration: none;
+}
+
+				.tribe-events-category-junior-section h3.tribe-events-list-event-title,
+			.tribe-events-shortcode .tribe-events-month table .type-tribe_events.tribe-events-category-junior-section,
+	.tribe-events-list-widget li.tribe-events-category-junior-section h4,
+li.tribe-events-list-widget-events.tribe-events-category-junior-section h4,
+.events-archive.events-gridview #tribe-events-content table .type-tribe_events.tribe-events-category-junior-section,
+.teccc-legend .tribe-events-category-junior-section,
+.tribe-events-calendar .tribe-events-category-junior-section,
+#tribe-events-content .tribe-events-category-junior-section > .tribe-events-tooltip h3,
+.type-tribe_events.tribe-events-category-junior-section h2,
+.tribe-events-category-junior-section > div.hentry.vevent > h3.entry-title,
+.tribe-events-mobile.tribe-events-category-junior-section h4 {
+		background-color: #616161;
+		border-left: 5px solid #4ad69e;
+	border-right: 5px solid transparent;
+		color: #fff;
+	line-height: 1.4em;
+	padding-left: 5px;
+	padding-bottom: 2px;
+}
+
+	.tribe-events-calendar .tribe-event-featured.tribe-events-category-junior-section,
+#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-event-featured.tribe-events-category-junior-section,
+.tribe-grid-body div[id*='tribe-events-event-'][class*='tribe-events-category-'].tribe-events-week-hourly-single.tribe-event-featured 
+{ border-right: 5px solid #0ea0d7 }
+
+	
+		.tribe-events-list-widget li.tribe-events-category-junior-section a:link,
+.tribe-events-list-widget li.tribe-events-category-junior-section a:visited,
+li.tribe-events-list-widget-events.tribe-events-category-junior-section a:link,
+li.tribe-events-list-widget-events.tribe-events-category-junior-section a:visited,
+	.tribe-events-category-junior-section h2.tribe-events-list-event-title.entry-title a,
+.tribe-events-category-junior-section h2.tribe-events-list-event-title a,
+.tribe-events-category-junior-section h3.tribe-events-list-event-title a,
+.tribe-event-featured .tribe-events-category-junior-section h3.tribe-events-list-event-title a,
+.tribe-events-list .tribe-events-loop .tribe-event-featured.tribe-events-category-junior-section h3.tribe-events-list-event-title a,
+{
+	width: auto;
+	display: block;
+}
+	
+				.tribe-events-category-holidays h2.tribe-events-list-event-title.entry-title a,
+.tribe-events-category-holidays h2.tribe-events-list-event-title a,
+.tribe-events-category-holidays h3.tribe-events-list-event-title a,
+.tribe-event-featured .tribe-events-category-holidays h3.tribe-events-list-event-title a,
+.tribe-events-list .tribe-events-loop .tribe-event-featured.tribe-events-category-holidays h3.tribe-events-list-event-title a,
+	.tribe-events-shortcode .tribe-events-month table .type-tribe_events.tribe-events-category-holidays,
+		.tribe-events-list-widget li.tribe-events-category-holidays a:link,
+.tribe-events-list-widget li.tribe-events-category-holidays a:visited,
+li.tribe-events-list-widget-events.tribe-events-category-holidays a:link,
+li.tribe-events-list-widget-events.tribe-events-category-holidays a:visited,
+	.tribe-events-list .tribe-events-loop .tribe-event-featured.tribe-events-category-holidays h3.tribe-events-list-event-title a:hover,
+#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-events-category-holidays.tribe-event-featured h3.tribe-events-month-event-title a:hover,
+#tribe-events-content table.tribe-events-calendar .tribe-event-featured.tribe-events-category-holidays .tribe-events-month-event-title a,
+.teccc-legend .tribe-events-category-holidays a,
+.tribe-events-calendar .tribe-events-category-holidays a,
+#tribe-events-content .teccc-legend .tribe-events-category-holidays a,
+#tribe-events-content .tribe-events-calendar .tribe-events-category-holidays a,
+.type-tribe_events.tribe-events-category-holidays h2 a,
+.tribe-events-category-holidays > div.hentry.vevent > h3.entry-title a,
+.tribe-events-mobile.tribe-events-category-holidays h4 a {
+		color: #fff;
+	text-decoration: none;
+}
+
+				.tribe-events-category-holidays h3.tribe-events-list-event-title,
+			.tribe-events-shortcode .tribe-events-month table .type-tribe_events.tribe-events-category-holidays,
+	.tribe-events-list-widget li.tribe-events-category-holidays h4,
+li.tribe-events-list-widget-events.tribe-events-category-holidays h4,
+.events-archive.events-gridview #tribe-events-content table .type-tribe_events.tribe-events-category-holidays,
+.teccc-legend .tribe-events-category-holidays,
+.tribe-events-calendar .tribe-events-category-holidays,
+#tribe-events-content .tribe-events-category-holidays > .tribe-events-tooltip h3,
+.type-tribe_events.tribe-events-category-holidays h2,
+.tribe-events-category-holidays > div.hentry.vevent > h3.entry-title,
+.tribe-events-mobile.tribe-events-category-holidays h4 {
+		background-color: #10a843;
+		border-left: 5px solid #db0243;
+	border-right: 5px solid transparent;
+		color: #fff;
+	line-height: 1.4em;
+	padding-left: 5px;
+	padding-bottom: 2px;
+}
+
+	.tribe-events-calendar .tribe-event-featured.tribe-events-category-holidays,
+#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-event-featured.tribe-events-category-holidays,
+.tribe-grid-body div[id*='tribe-events-event-'][class*='tribe-events-category-'].tribe-events-week-hourly-single.tribe-event-featured 
+{ border-right: 5px solid #0ea0d7 }
+
+	
+		.tribe-events-list-widget li.tribe-events-category-holidays a:link,
+.tribe-events-list-widget li.tribe-events-category-holidays a:visited,
+li.tribe-events-list-widget-events.tribe-events-category-holidays a:link,
+li.tribe-events-list-widget-events.tribe-events-category-holidays a:visited,
+	.tribe-events-category-holidays h2.tribe-events-list-event-title.entry-title a,
+.tribe-events-category-holidays h2.tribe-events-list-event-title a,
+.tribe-events-category-holidays h3.tribe-events-list-event-title a,
+.tribe-event-featured .tribe-events-category-holidays h3.tribe-events-list-event-title a,
+.tribe-events-list .tribe-events-loop .tribe-event-featured.tribe-events-category-holidays h3.tribe-events-list-event-title a,
+{
+	width: auto;
+	display: block;
+}
+	
+				.tribe-events-category-middle-section h2.tribe-events-list-event-title.entry-title a,
+.tribe-events-category-middle-section h2.tribe-events-list-event-title a,
+.tribe-events-category-middle-section h3.tribe-events-list-event-title a,
+.tribe-event-featured .tribe-events-category-middle-section h3.tribe-events-list-event-title a,
+.tribe-events-list .tribe-events-loop .tribe-event-featured.tribe-events-category-middle-section h3.tribe-events-list-event-title a,
+	.tribe-events-shortcode .tribe-events-month table .type-tribe_events.tribe-events-category-middle-section,
+		.tribe-events-list-widget li.tribe-events-category-middle-section a:link,
+.tribe-events-list-widget li.tribe-events-category-middle-section a:visited,
+li.tribe-events-list-widget-events.tribe-events-category-middle-section a:link,
+li.tribe-events-list-widget-events.tribe-events-category-middle-section a:visited,
+	.tribe-events-list .tribe-events-loop .tribe-event-featured.tribe-events-category-middle-section h3.tribe-events-list-event-title a:hover,
+#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-events-category-middle-section.tribe-event-featured h3.tribe-events-month-event-title a:hover,
+#tribe-events-content table.tribe-events-calendar .tribe-event-featured.tribe-events-category-middle-section .tribe-events-month-event-title a,
+.teccc-legend .tribe-events-category-middle-section a,
+.tribe-events-calendar .tribe-events-category-middle-section a,
+#tribe-events-content .teccc-legend .tribe-events-category-middle-section a,
+#tribe-events-content .tribe-events-calendar .tribe-events-category-middle-section a,
+.type-tribe_events.tribe-events-category-middle-section h2 a,
+.tribe-events-category-middle-section > div.hentry.vevent > h3.entry-title a,
+.tribe-events-mobile.tribe-events-category-middle-section h4 a {
+		color: #fff;
+	text-decoration: none;
+}
+
+				.tribe-events-category-middle-section h3.tribe-events-list-event-title,
+			.tribe-events-shortcode .tribe-events-month table .type-tribe_events.tribe-events-category-middle-section,
+	.tribe-events-list-widget li.tribe-events-category-middle-section h4,
+li.tribe-events-list-widget-events.tribe-events-category-middle-section h4,
+.events-archive.events-gridview #tribe-events-content table .type-tribe_events.tribe-events-category-middle-section,
+.teccc-legend .tribe-events-category-middle-section,
+.tribe-events-calendar .tribe-events-category-middle-section,
+#tribe-events-content .tribe-events-category-middle-section > .tribe-events-tooltip h3,
+.type-tribe_events.tribe-events-category-middle-section h2,
+.tribe-events-category-middle-section > div.hentry.vevent > h3.entry-title,
+.tribe-events-mobile.tribe-events-category-middle-section h4 {
+		background-color: #ff5722;
+		border-left: 5px solid #dddddd;
+	border-right: 5px solid transparent;
+		color: #fff;
+	line-height: 1.4em;
+	padding-left: 5px;
+	padding-bottom: 2px;
+}
+
+	.tribe-events-calendar .tribe-event-featured.tribe-events-category-middle-section,
+#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-event-featured.tribe-events-category-middle-section,
+.tribe-grid-body div[id*='tribe-events-event-'][class*='tribe-events-category-'].tribe-events-week-hourly-single.tribe-event-featured 
+{ border-right: 5px solid #0ea0d7 }
+
+	
+		.tribe-events-list-widget li.tribe-events-category-middle-section a:link,
+.tribe-events-list-widget li.tribe-events-category-middle-section a:visited,
+li.tribe-events-list-widget-events.tribe-events-category-middle-section a:link,
+li.tribe-events-list-widget-events.tribe-events-category-middle-section a:visited,
+	.tribe-events-category-middle-section h2.tribe-events-list-event-title.entry-title a,
+.tribe-events-category-middle-section h2.tribe-events-list-event-title a,
+.tribe-events-category-middle-section h3.tribe-events-list-event-title a,
+.tribe-event-featured .tribe-events-category-middle-section h3.tribe-events-list-event-title a,
+.tribe-events-list .tribe-events-loop .tribe-event-featured.tribe-events-category-middle-section h3.tribe-events-list-event-title a,
+{
+	width: auto;
+	display: block;
+}
+	
+				.tribe-events-category-senior-section h2.tribe-events-list-event-title.entry-title a,
+.tribe-events-category-senior-section h2.tribe-events-list-event-title a,
+.tribe-events-category-senior-section h3.tribe-events-list-event-title a,
+.tribe-event-featured .tribe-events-category-senior-section h3.tribe-events-list-event-title a,
+.tribe-events-list .tribe-events-loop .tribe-event-featured.tribe-events-category-senior-section h3.tribe-events-list-event-title a,
+	.tribe-events-shortcode .tribe-events-month table .type-tribe_events.tribe-events-category-senior-section,
+		.tribe-events-list-widget li.tribe-events-category-senior-section a:link,
+.tribe-events-list-widget li.tribe-events-category-senior-section a:visited,
+li.tribe-events-list-widget-events.tribe-events-category-senior-section a:link,
+li.tribe-events-list-widget-events.tribe-events-category-senior-section a:visited,
+	.tribe-events-list .tribe-events-loop .tribe-event-featured.tribe-events-category-senior-section h3.tribe-events-list-event-title a:hover,
+#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-events-category-senior-section.tribe-event-featured h3.tribe-events-month-event-title a:hover,
+#tribe-events-content table.tribe-events-calendar .tribe-event-featured.tribe-events-category-senior-section .tribe-events-month-event-title a,
+.teccc-legend .tribe-events-category-senior-section a,
+.tribe-events-calendar .tribe-events-category-senior-section a,
+#tribe-events-content .teccc-legend .tribe-events-category-senior-section a,
+#tribe-events-content .tribe-events-calendar .tribe-events-category-senior-section a,
+.type-tribe_events.tribe-events-category-senior-section h2 a,
+.tribe-events-category-senior-section > div.hentry.vevent > h3.entry-title a,
+.tribe-events-mobile.tribe-events-category-senior-section h4 a {
+		color: #fff;
+	text-decoration: none;
+}
+
+				.tribe-events-category-senior-section h3.tribe-events-list-event-title,
+			.tribe-events-shortcode .tribe-events-month table .type-tribe_events.tribe-events-category-senior-section,
+	.tribe-events-list-widget li.tribe-events-category-senior-section h4,
+li.tribe-events-list-widget-events.tribe-events-category-senior-section h4,
+.events-archive.events-gridview #tribe-events-content table .type-tribe_events.tribe-events-category-senior-section,
+.teccc-legend .tribe-events-category-senior-section,
+.tribe-events-calendar .tribe-events-category-senior-section,
+#tribe-events-content .tribe-events-category-senior-section > .tribe-events-tooltip h3,
+.type-tribe_events.tribe-events-category-senior-section h2,
+.tribe-events-category-senior-section > div.hentry.vevent > h3.entry-title,
+.tribe-events-mobile.tribe-events-category-senior-section h4 {
+		background-color: #607d8b;
+		border-left: 5px solid #d8391a;
+	border-right: 5px solid transparent;
+		color: #fff;
+	line-height: 1.4em;
+	padding-left: 5px;
+	padding-bottom: 2px;
+}
+
+	.tribe-events-calendar .tribe-event-featured.tribe-events-category-senior-section,
+#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-event-featured.tribe-events-category-senior-section,
+.tribe-grid-body div[id*='tribe-events-event-'][class*='tribe-events-category-'].tribe-events-week-hourly-single.tribe-event-featured 
+{ border-right: 5px solid #0ea0d7 }
+
+	
+		.tribe-events-list-widget li.tribe-events-category-senior-section a:link,
+.tribe-events-list-widget li.tribe-events-category-senior-section a:visited,
+li.tribe-events-list-widget-events.tribe-events-category-senior-section a:link,
+li.tribe-events-list-widget-events.tribe-events-category-senior-section a:visited,
+	.tribe-events-category-senior-section h2.tribe-events-list-event-title.entry-title a,
+.tribe-events-category-senior-section h2.tribe-events-list-event-title a,
+.tribe-events-category-senior-section h3.tribe-events-list-event-title a,
+.tribe-event-featured .tribe-events-category-senior-section h3.tribe-events-list-event-title a,
+.tribe-events-list .tribe-events-loop .tribe-event-featured.tribe-events-category-senior-section h3.tribe-events-list-event-title a,
+{
+	width: auto;
+	display: block;
+}
+	
+				.tribe-events-category-uttara-branch h2.tribe-events-list-event-title.entry-title a,
+.tribe-events-category-uttara-branch h2.tribe-events-list-event-title a,
+.tribe-events-category-uttara-branch h3.tribe-events-list-event-title a,
+.tribe-event-featured .tribe-events-category-uttara-branch h3.tribe-events-list-event-title a,
+.tribe-events-list .tribe-events-loop .tribe-event-featured.tribe-events-category-uttara-branch h3.tribe-events-list-event-title a,
+	.tribe-events-shortcode .tribe-events-month table .type-tribe_events.tribe-events-category-uttara-branch,
+		.tribe-events-list-widget li.tribe-events-category-uttara-branch a:link,
+.tribe-events-list-widget li.tribe-events-category-uttara-branch a:visited,
+li.tribe-events-list-widget-events.tribe-events-category-uttara-branch a:link,
+li.tribe-events-list-widget-events.tribe-events-category-uttara-branch a:visited,
+	.tribe-events-list .tribe-events-loop .tribe-event-featured.tribe-events-category-uttara-branch h3.tribe-events-list-event-title a:hover,
+#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-events-category-uttara-branch.tribe-event-featured h3.tribe-events-month-event-title a:hover,
+#tribe-events-content table.tribe-events-calendar .tribe-event-featured.tribe-events-category-uttara-branch .tribe-events-month-event-title a,
+.teccc-legend .tribe-events-category-uttara-branch a,
+.tribe-events-calendar .tribe-events-category-uttara-branch a,
+#tribe-events-content .teccc-legend .tribe-events-category-uttara-branch a,
+#tribe-events-content .tribe-events-calendar .tribe-events-category-uttara-branch a,
+.type-tribe_events.tribe-events-category-uttara-branch h2 a,
+.tribe-events-category-uttara-branch > div.hentry.vevent > h3.entry-title a,
+.tribe-events-mobile.tribe-events-category-uttara-branch h4 a {
+		color: #fff;
+	text-decoration: none;
+}
+
+				.tribe-events-category-uttara-branch h3.tribe-events-list-event-title,
+			.tribe-events-shortcode .tribe-events-month table .type-tribe_events.tribe-events-category-uttara-branch,
+	.tribe-events-list-widget li.tribe-events-category-uttara-branch h4,
+li.tribe-events-list-widget-events.tribe-events-category-uttara-branch h4,
+.events-archive.events-gridview #tribe-events-content table .type-tribe_events.tribe-events-category-uttara-branch,
+.teccc-legend .tribe-events-category-uttara-branch,
+.tribe-events-calendar .tribe-events-category-uttara-branch,
+#tribe-events-content .tribe-events-category-uttara-branch > .tribe-events-tooltip h3,
+.type-tribe_events.tribe-events-category-uttara-branch h2,
+.tribe-events-category-uttara-branch > div.hentry.vevent > h3.entry-title,
+.tribe-events-mobile.tribe-events-category-uttara-branch h4 {
+		background-color: #009688;
+		border-left: 5px solid #4b5ad1;
+	border-right: 5px solid transparent;
+		color: #fff;
+	line-height: 1.4em;
+	padding-left: 5px;
+	padding-bottom: 2px;
+}
+
+	.tribe-events-calendar .tribe-event-featured.tribe-events-category-uttara-branch,
+#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-event-featured.tribe-events-category-uttara-branch,
+.tribe-grid-body div[id*='tribe-events-event-'][class*='tribe-events-category-'].tribe-events-week-hourly-single.tribe-event-featured 
+{ border-right: 5px solid #0ea0d7 }
+
+	
+		.tribe-events-list-widget li.tribe-events-category-uttara-branch a:link,
+.tribe-events-list-widget li.tribe-events-category-uttara-branch a:visited,
+li.tribe-events-list-widget-events.tribe-events-category-uttara-branch a:link,
+li.tribe-events-list-widget-events.tribe-events-category-uttara-branch a:visited,
+	.tribe-events-category-uttara-branch h2.tribe-events-list-event-title.entry-title a,
+.tribe-events-category-uttara-branch h2.tribe-events-list-event-title a,
+.tribe-events-category-uttara-branch h3.tribe-events-list-event-title a,
+.tribe-event-featured .tribe-events-category-uttara-branch h3.tribe-events-list-event-title a,
+.tribe-events-list .tribe-events-loop .tribe-event-featured.tribe-events-category-uttara-branch h3.tribe-events-list-event-title a,
+{
+	width: auto;
+	display: block;
+}
+
