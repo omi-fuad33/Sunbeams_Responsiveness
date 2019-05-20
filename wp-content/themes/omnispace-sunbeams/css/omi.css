@@ -1289,7 +1289,6 @@ background-color: #ED1D24;
     .o_footer_logo{
       width: 160px;
       object-fit: cover;
-      margin-left: -30px;
     }
     .o_footer_developer {
         width: 96%;
