@@ -183,12 +183,12 @@ n_contain {
 
 .n_principalBox {
 	background-color: #787878;
-	opacity: 0.65;
-	width: 100vw;
+    opacity: 0.65;
+	width: 40vw;
 	height: 60px;
-	position: absolute;
+	position: relative;
 	bottom: 200px;
-	left: 5%;
+/*	left: 5%;*/
 	color: white;
 	/* border:2px solid red;*/
 	/*margin-top: -20%;*/
@@ -197,13 +197,13 @@ n_contain {
 }
 
 .n_facilityBox {
-	background-color: #787878;
+	background-color:#787878;
 	opacity: 0.65;
 	width: 20vw;
 	height: 60px;
-	position: absolute;
+	position:relative;
 	bottom: 200px;
-	left: 5%;
+	/*left: 5%;*/
 	color: white;
 	/*border:2px solid red;*/
 	/*margin-top: -20%;*/
@@ -214,11 +214,11 @@ n_contain {
 .n_missionBox {
 	background-color: #787878;
 	opacity: 0.65;
-	width: 20vw;
+	width: 35vw;
 	height: 60px;
-	position: absolute;
+	position: relative;
 	bottom: 200px;
-	left: 5%;
+/*	left: 5%*/;
 	color: white;
 	/*border:2px solid red;*/
 	/*margin-top: -20%;*/
@@ -227,7 +227,7 @@ n_contain {
 }
 
 .n_prinTitle {
-	text-align: left;
+	text-align: center;
 	margin-top: 6%;
 	/*margin-right: 3%;*/
 }
@@ -376,23 +376,25 @@ n_contain {
 
 @media only screen and (min-width: 1360px) {
 	.n_principalBox {
-		bottom: 120px;
+		bottom: 220px;
 		width: 40vw;
 	}
 	.n_facilityBox {
-		bottom: 120px;
-		width: 18vw;
+		bottom: 220px;
+		width: 12vw;
+		background-color:#787878;
 	}
 	
 	 .n_missionBox {
-		bottom: 120px;
+		bottom: 220px;
 		width: 25vw;
 	}
 	.n_prinTitle {
-		text-align: right;
-		margin-top: 3%;
-		margin-right: 3%;
+		text-align: center;
+		padding-top: 3%;
+		/*margin-right: 3%;*/
 	}
+
 }
 
 
@@ -408,22 +410,23 @@ n_contain {
 		/*border:3px solid green;*/
 	}
 	.n_principalBox {
-		bottom: 160px;
+		bottom: 250px;
 		width: 30vw;
 	}
 	.n_facilityBox {
-		bottom: 160px;
-		width: 15vw;
+		bottom: 240px;
+		width: 12vw;
 	}
 	
 	.n_missionBox {
-		bottom: 160px;
+		bottom: 250px;
 		width: 20vw;
 	}
 	.n_prinTitle {
-		text-align: right;
-		margin-top: 3%;
-		margin-right: 3%;
+		text-align: center;
+	/*	margin-top: 3%;
+		margin-right: 3%;*/
+		padding-top:2%;
 	}
 }
 
@@ -1112,6 +1115,11 @@ transform: rotate(-45deg);
 		.n_missionBox {
 		display: none;
 	}
+	
+	.d_mission_title
+	{
+	    display:none;
+	}
 	.n_f_rightColumn {
 		margin-top: 10%;
 		width: 105%;
@@ -1188,6 +1196,11 @@ transform: rotate(-45deg);
 	}
 	.n_f_newList {
 		width: 35%;
+	}
+	
+	.d_mission_title
+	{
+	    display:none;
 	}
     
     #n_ECAA
