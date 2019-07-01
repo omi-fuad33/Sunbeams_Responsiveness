@@ -94,15 +94,16 @@ html, body{
 .o_topbar_right_menu_wrapper ul li:last-child{
   border: none;
 }
-.o_topbar_right_menu_wrapper ul li:last-child:after{
+/* .o_topbar_right_menu_wrapper ul li:last-child:after{
   content: none;
-}
+} */
 .o_topbar_right_menu_wrapper ul li:after{
-  margin-top: 5px;
+  padding-top: 2px;
+  padding-bottom: 0px;
   content: '';
   display: block;
   width: 0;
-  height: 2px;
+  height: 0px;
   background: #ED1D24;
   transition: width .3s;
 }
@@ -243,6 +244,7 @@ background-color: #ED1D24;
   margin-left: 0;
   margin-bottom: 0;
   padding-bottom: 0px;
+  margin-top: 21px;
 }
 .o_header_main_menu ul li a{
   font-size: 1.2em;
@@ -252,6 +254,9 @@ background-color: #ED1D24;
 }
 .o_header_main_menu ul li a:hover{
   color: #ED1D24;
+}
+.o_header_main_menu ul li a:hover > ul{
+  display: block;
 }
 .o_header_main_menu ul li a:only-child:after {
   content: "";
@@ -419,8 +424,8 @@ background-color: #ED1D24;
     margin: 0 auto;
 }
 .o_about_us_col{
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 7%;
+    padding-left: 7%;
 }
 .o_about_us_col_img{
     height: 60%;
@@ -991,6 +996,10 @@ background-color: #ED1D24;
         font-size: 1.1rem;
         margin-bottom: 10px;
     }
+    .o_about_us_col{
+      padding-right: 40px;
+      padding-left: 40px;
+  }
        /*=============================
 ====Facilities Section============
 ===============================*/

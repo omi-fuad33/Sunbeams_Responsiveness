@@ -34,9 +34,9 @@
 		</div>
 		<div class="col-lg-10 o_topbar_right_menu_wrapper">
 			<ul>
-				<li id="o_top_quick_menu_button" onclick="main_quick_menu_open(this)"><i class="fas fa-info o_icon"></i>QUICK INFO</li>
+				<!-- <li id="o_top_quick_menu_button" onclick="main_quick_menu_open(this)"><i class="fas fa-info o_icon"></i>QUICK INFO</li> -->
 				<li id="o_top_call_menu_button" onclick="main_call_menu_open(this)"><i class="fas fa fa-phone o_icon"></i>CALL</li>
-				<li id="o_top_visit_menu_button" onclick="main_visit_menu_open(this)"><i class="fas fa-map-marker-alt o_icon"></i>VISIT</li>
+				<!-- <li id="o_top_visit_menu_button" onclick="main_visit_menu_open(this)"><i class="fas fa-map-marker-alt o_icon"></i>VISIT</li> -->
 				<li><i class="fas fa-search o_search_icon"></i></li>
 			</ul>
 			<div class="o_header_main_menu">
