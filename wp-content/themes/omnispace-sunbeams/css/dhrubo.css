@@ -51,7 +51,7 @@ img.d_mission_full_img{
     font-size: 32px;
     padding-top: 2px;
     font-weight: 800;
-   
+
 }
 .d_mission_content{
     display: block;
@@ -72,11 +72,11 @@ img.d_mission_full_img{
     margin-top:  -2%;
     padding-bottom: .7rem;
     border-bottom: 2px solid #A9A9A9;
-   
+
 }
 .d_mission_content ul{
     font-family:  alef-regular;
-} 
+}
 .d_mission_content ul li:first-child{
     list-style: none;
     color: #1b75bc ;
@@ -92,7 +92,7 @@ img.d_mission_full_img{
 }
 .page-template-mission{
     margin-bottom: 0;
-} 
+}
 
         /*///////*/
 /*CSS for Mission Ends*/
@@ -157,7 +157,7 @@ img.d_mission_full_img{
 }
 
 .d_board_content p:first-of-type{
-    color: #1b75bc; 
+    color: #1b75bc;
     font-size: 17px;
 }
 .page-template-school-board{
@@ -258,7 +258,7 @@ img.d_mission_full_img{
     margin: 3%;
 }
 .d_alumni_text2{
-    margin: 3% 0 0 3%;    
+    margin: 3% 0 0 3%;
 }
 .d_alumni_text2 p:first-child{
     font-size: 18px;
@@ -283,7 +283,7 @@ img.d_mission_full_img{
   line-height: 1.5em;
   color: #333333;
   background-color: #F8F8FF;
- 
+
 }
 .d_fieldset input:nth-child(5){
   height: 60px;
@@ -301,8 +301,8 @@ img.d_mission_full_img{
     background-color: #F8F8FF;
 }
 .d_alumni_news{
-   
-} 
+
+}
 .d_alumni_news .d_alumni_p{
     font-size: 18px;
     width: 200px;
@@ -354,6 +354,12 @@ img.d_mission_full_img{
 .page-template-alumni{
     margin-bottom: 0;
 }
+.d_footer_logo{
+  display: none;
+}
+.d_footer_padding{
+  margin-top: 4rem;
+}
 
 /*Media Query Starts*/
 
@@ -365,7 +371,7 @@ img.d_mission_full_img{
 }
 .d_admission_ongoing .d_2nd_pdf{
         margin-right: 200px !important;
-         
+
 }
 }
 
@@ -377,7 +383,7 @@ img.d_mission_full_img{
 }
     .d_admission_pdf1{
     width: 250px;
- 
+
 }
     .d_admission_ongoing .d_ongoing_p{
     margin: 5% 0 0 50%;
@@ -385,11 +391,14 @@ img.d_mission_full_img{
 }
     .d_admission_ongoing .wp-block-media-text{
     margin: -20% 10% 0 50%;
-   
+
 }
 .d_admission_ongoing .d_2nd_pdf{
     margin: -10% 0 0 50%;
 
+}
+.d_footer_logo{
+  display: block;
 }
 }
 
@@ -399,13 +408,13 @@ img.d_mission_full_img{
     {
     font-size: 18px;
     margin-left: -2%;
-    line-height: 2; 
+    line-height: 2;
 }
     .d_admission_fees img{
     margin-right: 0;
     height: 400px;
 }
-    
+
     .d_admission_fees ul{
     margin-left: 10% !important;
 }
@@ -415,7 +424,7 @@ img.d_mission_full_img{
 }
     .d_admission_ongoing .wp-block-media-text{
     margin: -30% 0 0 25%;
-   
+
 }
     .d_admission_ongoing .d_2nd_pdf{
     margin: -15% 0 0 25%;
@@ -432,13 +441,13 @@ img.d_mission_full_img{
     margin: 3% 0 0 13%;
     line-height: 1.2;
 }
-   
+
 }
 
 /*
 /* //Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 576px) {
-    
+
     .d_mission_title{
         font-size: 24px;
     }
@@ -451,7 +460,7 @@ img.d_mission_full_img{
     font-size: 16px;
     margin-left: -12%;
     margin-bottom: 5%;
-    line-height: 2; 
+    line-height: 2;
 }
     .d_mission_content ul li:nth-child(2),
     .d_mission_content ul li:nth-child(3),
@@ -460,13 +469,13 @@ img.d_mission_full_img{
         font-size: 14px;
         line-height: 2;
         margin-left: -10%;
-        
+
     }
     .d_board_content{
     line-height: 2;
     margin: -5% 10% 0 10%;
     padding: 5% 3% 5% 5%;
-    
+
 }
 
     .d_board_content h4{
@@ -510,7 +519,7 @@ img.d_mission_full_img{
             font-size: 12px;
             width: 80%;
           margin: -35% 0 0 7%;
-   
+
 }
     .d_admission_ongoing .d_2nd_pdf{
     margin: -18% 0 0 7%;
@@ -536,7 +545,7 @@ img.d_mission_full_img{
        .d_admission_pdf1{
             text-align: center;
            margin-left: 10%;
- 
+
 }
     .d_admission_pdf1{
     width: 250px;
@@ -551,7 +560,17 @@ img.d_mission_full_img{
     padding: 5px 0 0 30px;
     font-size: 16px;
 }
-  
+.d_qInfo, .d_footer_padding{
+  display: none;
+}
+.o_footer_paragraph{
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.o_footer_headline{
+  font-size: 1.1rem;
+  margin-bottom: -5px;
+}
 }
 
 /* FROM NAEEB*/
@@ -560,4 +579,3 @@ img.d_mission_full_img{
 {
     font-size:20px;
 }
-
