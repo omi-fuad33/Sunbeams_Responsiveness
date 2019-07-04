@@ -718,11 +718,15 @@ background-color: #ED1D24;
 /* =======================================
 ========Home Academic Calender Section====
 ========================================== */
-.o_home_academic_section_container{
-  width: 90%;
+/* .o_home_academic_section_container{
+  width: 50%;
   margin: 5% auto;
 }
+.o_home_academic_section_img{
+  margin-top: -20px;
+}
 .o_home_academic_section_img img{
+  width: 280px;
   -webkit-transition: all ease-out .3s;
   -ms-transition: all ease-out .3s;
   transition: all ease-out .3s;
@@ -732,6 +736,43 @@ background-color: #ED1D24;
   font-family: alef-regular;
 }
 .o_home_academic_calender_text_wrap{
+  margin-left: 0px;
+  margin-top: 12px;
+  margin-right: 10%;
+  background-color: #E6E7E8;
+  padding-top: 5%;
+  padding-bottom: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+.o_home_academic_right{
+  margin-left: 0px;
+}
+.o_academic_calen_titile{
+  padding-top: 5%;
+}
+
+.o_home_academic_read_more{
+  float: right;
+  margin-top: 50px;
+} */
+.o_home_academic_section_container{
+  width: 90%;
+  margin: 5% auto;
+ }
+ .o_home_academic_section_img img{
+  -webkit-transition: all ease-out .3s;
+  -ms-transition: all ease-out .3s;
+  transition: all ease-out .3s;
+  margin-top: -17%;
+  transform: scale(.85);
+ }
+ .o_home_academic_text_content{
+  width: 80%;
+  font-family: alef-regular;
+ }
+ .o_home_academic_calender_text_wrap{
   margin-left: 40px;
   margin-top: 12px;
   margin-right: 10%;
@@ -740,19 +781,19 @@ background-color: #ED1D24;
   padding-bottom: 20%;
   padding-left: 12%; 
   padding-right: 0%; 
-}
-.o_home_academic_right{
+ }
+ .o_home_academic_right{
   margin-left: -20px;
-}
-.o_home_academic_read_more{
+ }
+ .o_home_academic_read_more{
   float: right;
   margin-top: 50px;
-}
+ }
 /* ==============================================
 ==========Home Campus Section====================
 ================================================= */
 .o_home_campus_container{
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
 }
 .o_home_campus_content_wrapper{
@@ -771,7 +812,7 @@ background-color: #ED1D24;
 .o_home_campus_link_buttons{
   font-size: 20px;
   width: 50%;
-  padding-left: 60px;
+  padding-left: 10px;
 }
 .o_home_campus_link_buttons:after{
   width: 20%;
@@ -780,10 +821,13 @@ background-color: #ED1D24;
   width: 40%;
 }
 .o_home_campus_section_img img{
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 100%;
-  height: 500px;
+  height: 300px;
   object-fit: cover;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 /* ==================================================
 ===========Home Alumni Section=======================
@@ -1105,6 +1149,13 @@ background-color: #ED1D24;
     }
     .o_footer_developer {
         width: 96%;
+    }
+    .o_academic_calen_titile{
+      padding-top: 10%;
+    }
+    .o_calen_headline{
+      font-size: 25px;
+      text-align: center;
     }
 
 }

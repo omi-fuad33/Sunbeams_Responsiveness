@@ -185,30 +185,47 @@ get_header();
     </div>
     <!-- Admission Section ends -->
     <!-- Academic Calender Section starts-->
-    <div class="o_home_academic_section_container">
+    <!-- <div class="o_home_academic_section_container">
         <div class="row">
-            <div class="col-lg-6 wow fadeInRight">
+            <div class="col-lg-0 wow fadeInRight">
                 <?php
                     $post_id = 192;
                     $queried_post = get_post($post_id);
                     $content = $queried_post->post_content;
                     $title = $queried_post->post_title;
-                    $thumbnail = get_the_post_thumbnail( $post_id, 'large' ); 
+                    $thumbnail = get_the_post_thumbnail( $post_id, 'small' ); 
                 ?>
-                <div class="o_home_academic_section_img"><?php echo $thumbnail; ?></div>
             </div>
-            <div class="col-lg-6 wow fadeInLeft o_home_academic_right">
-                <div class="o_home_academic_calender_text_wrap">
-                    <h1 class="o_facilites_text_headline" style="text-align: left"><?php echo $title; ?></h1>
-                    <div class="o_home_academic_text_content">
-                        <?php echo $content; ?>
+            <div class="col-lg-12 wow fadeInLeft o_home_academic_right">
+                <div class="o_home_academic_calender_text_wrap o_academic_calen_titile">
+                    <a href="http://sunbeams.edu.bd/calendars/"><h1 class="o_facilites_text_headline o_calen_headline" style="text-align: center"><?php echo $title; ?></h1></a>
+                    <div class="o_home_academic_section_img">php thumbnail call</div>
+                    <a href="http://sunbeams.edu.bd/calendars"><p class="o_about_us_read_more o_home_academic_read_more">Click to visit</p></a>
+                   <div class="o_home_academic_text_content">
+                        php content call
                         <a href="http://sunbeams.edu.bd/calendars"><p class="o_about_us_read_more o_home_academic_read_more">Read More</p></a>
                     </div>
                 </div>
             </div>
         </div>
+    </div> -->
+    <div class="o_home_academic_section_container">
+        <div class="row">
+            <div class="col-lg-6 wow fadeInRight">
+                <div class="o_home_academic_section_img"><?php echo $thumbnail; ?></div>
+            </div>
+        <div class="col-lg-6 wow fadeInLeft o_home_academic_right">
+        <div class="o_home_academic_calender_text_wrap">
+        <h1 class="o_facilites_text_headline" style="text-align: left">Academic calendar</h1>
+        <div class="o_home_academic_text_content">
+        <?php echo $content; ?>
+        <a href="http://sunbeams.edu.bd/calendars"><p class="o_about_us_read_more o_home_academic_read_more">Read More</p></a>
+        </div>
+        </div>
+        </div>
+        </div>
     </div>
-    <!-- Academic Calender Section ends-->
+    <!-- Academic Calender Section ends -->
     <!-- Gallery Section starts -->
     <div class="o_home_gallery_container">
         <h4>Gallery</h4>
@@ -265,13 +282,23 @@ get_header();
         <div class="o_home_campus_content_wrapper wow fadeInUp">
             <a class="o_homepage_heading" style="text-align: left" target="_blank" href="<?php echo get_home_url();?>/campus"><?php echo $title; ?></a>
             <div class="o_home_campus_content"><?php echo $content; ?></div>
-            <div class="o_campus_button_wrapper">
-                <p><a class="o_facilities_eca_link o_home_admission_link_buttons o_home_campus_link_buttons" href="http://omnispace.co/sunbeams/dhanmondi">Dhanmondi</a></p>
-                <p><a class="o_facilities_eca_link o_home_admission_link_buttons o_home_campus_link_buttons" href="http://omnispace.co/sunbeams/uttara">Uttara</a></p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p><a class="o_facilities_eca_link o_home_admission_link_buttons o_home_campus_link_buttons" href="http://omnispace.co/sunbeams/dhanmondi">Dhanmondi</a></p>
+                    <div class="o_home_campus_section_img wow zoomIn"><?php echo $thumbnail; ?></div>
+                </div>
+                <div class="col-lg-6">
+                <?php
+                    $post_id = 751;
+                    $queried_post = get_post($post_id);
+                    $thumbnail_uttara_campus = get_the_post_thumbnail( $post_id, 'small' ); 
+                ?>
+                    <p><a class="o_facilities_eca_link o_home_admission_link_buttons o_home_campus_link_buttons" href="http://omnispace.co/sunbeams/uttara">Uttara</a></p>
+                    <div class="o_home_campus_section_img wow zoomIn"><?php echo $thumbnail_uttara_campus; ?></div>
+                <div>
             </div>
         </div>
         <div class="clearfix"></div>
-        <div class="o_home_campus_section_img wow zoomIn"><?php echo $thumbnail; ?></div>
     </div>
     <!-- Home Campus Section ends -->
     <!-- Home Alumni Section Starts -->
