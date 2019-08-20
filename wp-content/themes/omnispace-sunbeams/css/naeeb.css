@@ -1563,7 +1563,7 @@ transform: rotate(-45deg);
 {
 
     margin-bottom: 3%;
-    
+/*    border:2px solid green;*/
 }
 .n_newFacSingle {
   float: left;
@@ -1607,7 +1607,7 @@ transform: rotate(-45deg);
 
 .facilities_DIV
 {
-    width:50%;
+    width:70%;
     margin: 0 auto;
     height:auto;
    /* border:2px solid black;*/
@@ -1869,5 +1869,4 @@ color:white;
 {
     border: 1px solid black;
 }
-
 
