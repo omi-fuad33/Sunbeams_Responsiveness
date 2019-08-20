@@ -160,11 +160,7 @@ get_header();
     <!-- News & Notice Section ends -->
     <!-- Admission Section starts -->
     <div class="o_home_admission_container">
-        <div class="row">
-            <div class="col-lg-5 wow fadeInLeft">
-                <img class="o_home_admission_left_img img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/admission1.JPG" alt="image not found">
-            </div>
-            <div class="col-lg-7 o_home_admission_right_container wow fadeInUp">
+            <div class="o_home_admission_right_container wow fadeInUp">
                 <?php
                     $post_id = 187;
                     $queried_post = get_post($post_id);
@@ -178,16 +174,12 @@ get_header();
                 <div class="o_home_admission_text_content"><?php echo $content; ?></div>
                 <p><a class="o_facilities_eca_link o_home_admission_link_buttons" href="<?php echo get_home_url();?>/admission/#process">Admission process</a></p>
                 <p><a class="o_facilities_eca_link o_home_admission_link_buttons" href="<?php echo get_home_url();?>/admission/#ongoing">Admission ongoing</a></p>
-                <div class="o_home_admission_img_right"><?php echo $admission_thumbnail; ?></div>
                 <?php wp_reset_query(); ?>
             </div>
-        </div>
+        
     </div>
     <!-- Admission Section ends -->
     <!-- Academic Calender Section starts-->
-    <!-- <div class="o_home_academic_section_container">
-        <div class="row">
-            <div class="col-lg-0 wow fadeInRight">
                 <?php
                     $post_id = 192;
                     $queried_post = get_post($post_id);
@@ -195,35 +187,14 @@ get_header();
                     $title = $queried_post->post_title;
                     $thumbnail = get_the_post_thumbnail( $post_id, 'small' ); 
                 ?>
-            </div>
-            <div class="col-lg-12 wow fadeInLeft o_home_academic_right">
-                <div class="o_home_academic_calender_text_wrap o_academic_calen_titile">
-                    <a href="http://sunbeams.edu.bd/calendars/"><h1 class="o_facilites_text_headline o_calen_headline" style="text-align: center"><?php echo $title; ?></h1></a>
-                    <div class="o_home_academic_section_img">php thumbnail call</div>
-                    <a href="http://sunbeams.edu.bd/calendars"><p class="o_about_us_read_more o_home_academic_read_more">Click to visit</p></a>
-                   <div class="o_home_academic_text_content">
-                        php content call
-                        <a href="http://sunbeams.edu.bd/calendars"><p class="o_about_us_read_more o_home_academic_read_more">Read More</p></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <div class="o_home_academic_section_container">
-        <div class="row">
-            <div class="col-lg-6 wow fadeInRight">
+           
+    <div class="row o_home_academic_section_container">
+            <div class="col-lg-6 col-xs-12 wow fadeInRight">
                 <div class="o_home_academic_section_img"><?php echo $thumbnail; ?></div>
             </div>
-        <div class="col-lg-6 wow fadeInLeft o_home_academic_right">
-        <div class="o_home_academic_calender_text_wrap">
-        <h1 class="o_facilites_text_headline" style="text-align: left">Academic calendar</h1>
-        <div class="o_home_academic_text_content">
-        <?php echo $content; ?>
-        <a href="http://sunbeams.edu.bd/calendars"><p class="o_about_us_read_more o_home_academic_read_more">Read More</p></a>
-        </div>
-        </div>
-        </div>
-        </div>
+            <div class="col-lg-6 col-xs-12 wow fadeInLeft o_home_academic_right">
+                <a href=""><h1 class="o_facilites_text_headline" style="text-align: left">Academic calendar</h1></a>
+            </div>
     </div>
     <!-- Academic Calender Section ends -->
     <!-- Gallery Section starts -->

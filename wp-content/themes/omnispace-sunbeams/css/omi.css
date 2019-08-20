@@ -436,7 +436,7 @@ background-color: #ED1D24;
     transition: all ease-out .3s;
 }
 .o_about_us_col_img:hover, .o_facilities_home_img img:hover, .o_home_admission_left_img:hover, .o_home_admission_img_right img:hover, 
-.o_home_newsletter_img:hover, .o_home_academic_section_img img:hover{
+.o_home_newsletter_img:hover{
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03);
@@ -513,6 +513,7 @@ background-color: #ED1D24;
 .o_facilites_text_content{
   font-family: alef-regular;
   padding-bottom: 40px;
+  font-size: 18px;
 }
 .o_facilities_eca_link, .o_facilities_eca_link:visited{
   color: #4D4D4F;
@@ -548,8 +549,9 @@ background-color: #ED1D24;
 ===================================*/
 
 .o_home_admission_container{
-  width: 90%;
+  width: 70%;
   margin: 8% auto;
+  padding-bottom: 5%;
 }
 .o_home_admission_left_img{
   height: 720px;;
@@ -566,6 +568,7 @@ background-color: #ED1D24;
   width: 70%;
   margin-bottom: 7%;
   font-family: alef-regular;
+  font-size: 18px;
 }
 .o_home_admission_link_buttons{
   width: 33%;
@@ -758,15 +761,26 @@ background-color: #ED1D24;
   margin-top: 50px;
 } */
 .o_home_academic_section_container{
-  width: 90%;
-  margin: 5% auto;
+  width: 70%;
+  margin: 2% auto;
+  background-color: #E6E7E8;
+  padding-top: 2%;
+  margin-bottom: 5%;
+  -webkit-box-shadow: 0px 10px 14px -1px rgba(156,140,156,0.86);
+-moz-box-shadow: 0px 10px 14px -1px rgba(156,140,156,0.86);
+box-shadow: 0px 10px 14px -1px rgba(156,140,156,0.86);
  }
  .o_home_academic_section_img img{
   -webkit-transition: all ease-out .3s;
   -ms-transition: all ease-out .3s;
   transition: all ease-out .3s;
   margin-top: -17%;
-  transform: scale(.85);
+  transform: scale(.8);
+ }
+ .o_home_academic_section_img img:hover{
+  -webkit-transform: scale(0.85);
+  -ms-transform: scale(0.85);
+  transform: scale(0.85);
  }
  .o_home_academic_text_content{
   width: 80%;
@@ -784,6 +798,7 @@ background-color: #ED1D24;
  }
  .o_home_academic_right{
   margin-left: -20px;
+  margin-top: 8%;
  }
  .o_home_academic_read_more{
   float: right;
@@ -1078,7 +1093,7 @@ background-color: #ED1D24;
       width: 100%;
     }
     .o_home_admission_link_buttons {
-      width: 45%;
+      width: 50%;
     }
     .o_home_academic_right {
       margin-left: 0px;
@@ -1157,7 +1172,17 @@ background-color: #ED1D24;
       font-size: 25px;
       text-align: center;
     }
-
+    .o_home_admission_container{
+      width: 95%;
+    }
+    .o_home_academic_section_container{
+      width: 100%;
+      padding-top: 5%;
+      text-align: center;
+    }
+    .o_home_academic_right{
+      margin-top: 0%;
+    }
 }
 
 
@@ -1277,7 +1302,7 @@ background-color: #ED1D24;
       width: 100%;
     }
     .o_home_admission_link_buttons {
-      width: 45%;
+      width: 50%;
     }
     .o_home_academic_right {
       margin-left: 0px;
