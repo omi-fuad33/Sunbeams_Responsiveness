@@ -422,6 +422,7 @@ background-color: #ED1D24;
 .o_about_us_section_wrapper{
     width: 50%;
     margin: 0 auto;
+    margin-bottom: -90px;
 }
 .o_about_us_col{
     padding-right: 7%;
@@ -1064,6 +1065,7 @@ box-shadow: 0px 10px 14px -1px rgba(156,140,156,0.86);
   }
   .o_about_us_section_wrapper{
     width: 100%;
+    margin-bottom: -40px;
   }
   .o_home_news_notice_container{
     width: 90%;
