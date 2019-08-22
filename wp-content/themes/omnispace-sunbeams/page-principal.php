@@ -14,10 +14,11 @@
       $image_url = wp_get_attachment_image_src($image_id, 'full', true);
       ?>
    <div class="n_contain">
-      <img class="n_prinImage img-responsive" src="<?php echo $image_url[0]; ?>">
+<!--      <img class="n_prinImage img-responsive" src="<?php echo $image_url[0]; ?>">-->
       <div class="n_principalBox"><h2 class="n_prinTitle"><?php the_title(); ?></h2></div>
          </div>
       <br><br>
+    
       <!--Home taxt and bottombar -->
       <p class="n_homebar">HOME>
          <?php the_title_attribute(); ?><br>
@@ -39,11 +40,13 @@
       <div class="container-fluid  n_fullSecond">
          <div><img class="n_im img-responsive n_hideImageOne"  src="<?php echo $image_url[0]; ?>"></div>
           
-          <span class="float-left col-xl-6 n_writingSecond">
-         <?php the_content();?>
-         </span>
-          <div><img class="n_im img-responsive col-xl-6  n_hideImageTwo"  src="<?php echo $image_url[0]; ?>"></div>
+    
+          <div class="n_newIm"><img class="float-right n_im img-responsive"  src="<?php echo $image_url[0]; ?>"></div>
           
+          
+          <div class="n_writingSecond">
+         <?php the_content();?>
+         </div>
           
       </div>
       <?php endif; ?>
@@ -54,6 +57,6 @@
          wp_reset_query(); //resetting the page query
          ?>
    </div>
-</div>
+
 <br><br><br>
 <div class="n_foot"><?php get_footer();?></div>

@@ -48,10 +48,12 @@
          <br><br><br><br>
           
           
+<!--
          <div class="wow zoomIn n_newFacSDiv col-xl-4 col-lg-4 col-md-6">
             <img class="n_naImage float-left" src="<?php echo get_template_directory_uri(); ?>/images/icons/security.png" alt="image not found">
             <li class="n_newFacSingle"><a class="n_clickSecurity" href="#">Security</a></li>
          </div>
+-->
           
          <div class="wow zoomIn n_newFacSDiv col-xl-4 col-lg-4 col-md-6">
             <img class="n_naImage float-left" src="<?php echo get_template_directory_uri(); ?>/images/icons/canteen.png" alt="image not found">
