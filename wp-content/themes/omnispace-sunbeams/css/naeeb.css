@@ -68,6 +68,16 @@
 	}
 }
 
+@media only screen and (min-width: 1365px) {
+	.n_writingFirst {
+		font-size: 22px;
+	}
+	.n_writingSecond {
+		font-size: 18px;
+	}
+}
+
+
 @media only screen and (min-width: 1500px) {
 	.n_writingFirst {
 		font-size: 22px;
@@ -293,25 +303,64 @@ n_contain {
 /* PRINCIPAL'S PAGE 2ND PARA
 =============================*/
 
+/*
 .n_writingSecond {
 	text-align: justify;
 	margin-right: 4%;
-	margin-left: -1%;
+	margin-left: -2%;
+    margin-top: -2%;
 	font-family: alef-regular;
-	/*border:3px solid green;*/
+    border: 2px solid red;
+	
 }
+*/
+
+.n_writingSecond {
+	text-align: justify;
+	font-family: alef-regular;
+/*    border: 2px solid red;*/
+    
+    width:100%;
+/*    margin-top: -5%;*/
+	
+}
+
+
 
 
 /* PRINCIPAL'S PAGE IMAGE
 ============================*/
 
+/*
 .n_im {
-	/*  border: 2px solid red;*/
-	margin-left: -3%;
-	/* width:1200px;*/
+	
+	margin-left: -2%;
+	
 	height: 600px;
 	object-fit: cover;
 	margin-top: 2%;
+    
+}
+*/
+
+.n_im {
+	
+/*	margin-left: -2%;*/
+	height: 300px;
+	object-fit: cover;
+/*	margin-top: 2%;*/
+    
+}
+
+.n_newIm
+{
+/*    border:2px solid green;*/
+    margin-left:65%;
+    width:30%;
+    height:310px;
+    margin-top: -5%;
+    
+    
 }
 
 
@@ -378,6 +427,7 @@ n_contain {
 	.n_principalBox {
 		bottom: 220px;
 		width: 40vw;
+        border:2px solid green;
 	}
 	.n_facilityBox {
 		bottom: 220px;
@@ -1563,7 +1613,7 @@ transform: rotate(-45deg);
 {
 
     margin-bottom: 3%;
-    
+/*    border:2px solid green;*/
 }
 .n_newFacSingle {
   float: left;
@@ -1607,7 +1657,7 @@ transform: rotate(-45deg);
 
 .facilities_DIV
 {
-    width:50%;
+    width:70%;
     margin: 0 auto;
     height:auto;
    /* border:2px solid black;*/
@@ -1869,5 +1919,4 @@ color:white;
 {
     border: 1px solid black;
 }
-
 

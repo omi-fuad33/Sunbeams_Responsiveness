@@ -173,7 +173,11 @@ get_header();
                 
                 <div class="o_home_admission_text_content"><?php echo $content; ?></div>
                 <p><a class="o_facilities_eca_link o_home_admission_link_buttons" href="<?php echo get_home_url();?>/admission/#process">Admission process</a></p>
+
+<!--                <p><a class="o_facilities_eca_link o_home_admission_link_buttons" href="<?php echo get_home_url();?>/admission/#ongoing">Admission ongoing</a></p>-->
+
                 <!-- <p><a class="o_facilities_eca_link o_home_admission_link_buttons" href="<?php echo get_home_url();?>/admission/#ongoing">Admission ongoing</a></p> -->
+
                 <?php wp_reset_query(); ?>
             </div>
         

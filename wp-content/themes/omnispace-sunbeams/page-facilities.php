@@ -33,7 +33,12 @@
           
          <div class="wow zoomIn n_newFacSDiv col-xl-4 col-lg-4 col-md-6">
             <img class="n_naImage float-left" src="<?php echo get_template_directory_uri(); ?>/images/icons/lab.png" alt="image not found">
-            <li class="n_newFacSingle"><a class="n_clickLab" href="#">Lab</a></li>
+            <li class="n_newFacSingle"><a class="n_clickLab" href="#">Science Lab</a></li>
+         </div>
+          
+          <div class="wow zoomIn n_newFacSDiv col-xl-4 col-lg-4 col-md-6">
+            <img class="n_naImage float-left" src="<?php echo get_template_directory_uri(); ?>/images/icons/computer.png" alt="image not found">
+            <li class="n_newFacSingle"><a class="n_clickComputer" href="#">Computer Lab</a></li>
          </div>
           
          <div class="wow zoomIn n_newFacSDiv col-xl-4 col-lg-4 col-md-6">
@@ -43,10 +48,12 @@
          <br><br><br><br>
           
           
+<!--
          <div class="wow zoomIn n_newFacSDiv col-xl-4 col-lg-4 col-md-6">
             <img class="n_naImage float-left" src="<?php echo get_template_directory_uri(); ?>/images/icons/security.png" alt="image not found">
             <li class="n_newFacSingle"><a class="n_clickSecurity" href="#">Security</a></li>
          </div>
+-->
           
          <div class="wow zoomIn n_newFacSDiv col-xl-4 col-lg-4 col-md-6">
             <img class="n_naImage float-left" src="<?php echo get_template_directory_uri(); ?>/images/icons/canteen.png" alt="image not found">
@@ -95,6 +102,7 @@
        $("#facilities_Playground").hide();
        $("#facilities_Transport").hide();
        $("#facilities_FirstAid").hide();
+       $("#facilities_Computer").hide();   
        
        $("#n_fiveSix").hide();
        $("#n_sevenEight").hide();
@@ -113,13 +121,15 @@
        $("#facilities_Playground").hide();
        $("#facilities_Transport").hide();
        $("#facilities_FirstAid").hide();
+       $("#facilities_Computer").hide();
+        
         
         $("#n_fiveSix").hide();
         $("#n_sevenEight").hide();
                          
     });
     
-        /* CLICK FUNCTION FOR LAB*/
+        /* CLICK FUNCTION FOR Science LAB*/
     $(".n_clickLab").click(function(){
                 
        $("#facilities_Auditorium").hide();
@@ -131,6 +141,27 @@
        $("#facilities_Playground").hide();
        $("#facilities_Transport").hide();
        $("#facilities_FirstAid").hide();
+       $("#facilities_Computer").hide();    
+        
+         $("#n_fiveSix").hide();
+        $("#n_sevenEight").hide();
+                         
+    });
+    
+         /* CLICK FUNCTION FOR Computer LAB*/
+    $(".n_clickComputer").click(function(){
+                
+       $("#facilities_Auditorium").hide();
+       $("#facilities_Lab").hide();
+       $("#facilities_Computer").show();
+       $("#facilities_ECA").hide();
+       $("#facilities_Security").hide();
+       $("#facilities_Canteen").hide();
+       $("#facilities_Library").hide();
+       $("#facilities_Playground").hide();
+       $("#facilities_Transport").hide();
+       $("#facilities_FirstAid").hide();
+          
         
          $("#n_fiveSix").hide();
         $("#n_sevenEight").hide();
@@ -149,6 +180,7 @@
        $("#facilities_Playground").hide();
        $("#facilities_Transport").hide();
        $("#facilities_FirstAid").hide();
+       $("#facilities_Computer").hide();
         
          $("#n_fiveSix").hide();
         $("#n_sevenEight").hide();
@@ -167,6 +199,7 @@
        $("#facilities_Playground").hide();
        $("#facilities_Transport").hide();
        $("#facilities_FirstAid").hide();
+       $("#facilities_Computer").hide();
         
          $("#n_fiveSix").hide();
         $("#n_sevenEight").hide();
@@ -185,6 +218,7 @@
        $("#facilities_Playground").hide();
        $("#facilities_Transport").hide();
        $("#facilities_FirstAid").hide();
+       $("#facilities_Computer").hide();
         
          $("#n_fiveSix").hide();
         $("#n_sevenEight").hide();
@@ -203,7 +237,7 @@
        $("#facilities_Playground").hide();
        $("#facilities_Transport").hide();
        $("#facilities_FirstAid").hide();
-        
+       $("#facilities_Computer").hide();
          $("#n_fiveSix").hide();
         $("#n_sevenEight").hide();
                          
@@ -221,6 +255,7 @@
        $("#facilities_Playground").show();
        $("#facilities_Transport").hide();
        $("#facilities_FirstAid").hide();
+       $("#facilities_Computer").hide();
         
          $("#n_fiveSix").hide();
         $("#n_sevenEight").hide();
@@ -239,6 +274,7 @@
        $("#facilities_Playground").hide();
        $("#facilities_Transport").show();
        $("#facilities_FirstAid").hide();
+       $("#facilities_Computer").hide();
         
          $("#n_fiveSix").hide();
         $("#n_sevenEight").hide();
@@ -257,6 +293,7 @@
        $("#facilities_Playground").hide();
        $("#facilities_Transport").hide();
        $("#facilities_FirstAid").show();
+       $("#facilities_Computer").hide();
         
          $("#n_fiveSix").hide();
         $("#n_sevenEight").hide();
@@ -275,6 +312,8 @@
           $("#facilities_Playground").hide(1000);
           $("#facilities_Transport").hide(1000);
           $("#facilities_FirstAid").hide(1000);
+          $("#facilities_Computer").hide(1000);
+          
               
               
           $("#n_fiveSix").hide();
