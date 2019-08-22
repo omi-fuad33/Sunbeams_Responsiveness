@@ -303,27 +303,29 @@ n_contain {
 /* PRINCIPAL'S PAGE 2ND PARA
 =============================*/
 
+.n_writingSecond {
+	text-align: justify;
+	margin-right: 2%;
+	margin-left: -2%;
+    margin-top: -4%;
+	font-family: alef-regular;
+/*    border: 2px solid red;*/
+	
+}
+
 /*
 .n_writingSecond {
 	text-align: justify;
-	margin-right: 4%;
-	margin-left: -2%;
-    margin-top: -2%;
 	font-family: alef-regular;
-    border: 2px solid red;
+ border: 2px solid red;*/
+    
+/*
+    width:100%;
+   margin-top: -5%;
+*/
 	
 }
 */
-
-.n_writingSecond {
-	text-align: justify;
-	font-family: alef-regular;
-/*    border: 2px solid red;*/
-    
-    width:100%;
-/*    margin-top: -5%;*/
-	
-}
 
 
 
@@ -331,26 +333,26 @@ n_contain {
 /* PRINCIPAL'S PAGE IMAGE
 ============================*/
 
+.n_im {
+	
+/*	margin-left: -3%;*/
+	
+	height: 600px;
+	object-fit: cover;
+/*	margin-top: 2%;*/
+    
+}
+
 /*
 .n_im {
 	
 	margin-left: -2%;
-	
-	height: 600px;
+	height: 300px;
 	object-fit: cover;
 	margin-top: 2%;
     
 }
 */
-
-.n_im {
-	
-/*	margin-left: -2%;*/
-	height: 300px;
-	object-fit: cover;
-/*	margin-top: 2%;*/
-    
-}
 
 .n_newIm
 {
@@ -645,6 +647,15 @@ n_contain {
 {
     margin-left:45%;
 }
+
+
+.n_upcomingEvents
+    {
+       width:80%;
+        font-family: alef-regular;
+        font-size:18px;
+        margin-bottom: 15%;
+    }
 
 /*============DESIGNS FOR SINGLE.PHP===========*/
 
@@ -1920,3 +1931,4 @@ color:white;
     border: 1px solid black;
 }
 
+    
