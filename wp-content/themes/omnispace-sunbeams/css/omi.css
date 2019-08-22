@@ -407,7 +407,7 @@ background-color: #ED1D24;
     margin: 0 auto;
 }
 .o_welcome_text_container p{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-family: alef-regular;
     text-align: center;
     margin-bottom: 30px;
@@ -420,7 +420,7 @@ background-color: #ED1D24;
   margin: 0 auto;
 }
 .o_about_us_section_wrapper{
-    width: 90%;
+    width: 50%;
     margin: 0 auto;
 }
 .o_about_us_col{
@@ -436,7 +436,7 @@ background-color: #ED1D24;
     transition: all ease-out .3s;
 }
 .o_about_us_col_img:hover, .o_facilities_home_img img:hover, .o_home_admission_left_img:hover, .o_home_admission_img_right img:hover, 
-.o_home_newsletter_img:hover, .o_home_academic_section_img img:hover{
+.o_home_newsletter_img:hover{
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03);
@@ -477,19 +477,22 @@ background-color: #ED1D24;
 ======Facilities section========
 ============================== */
 .o_home_facilities_section_container{
- margin-top: 5%;
+  width: 60%; 
+  margin: 5% auto;
 }
 .o_facilites_text_container_wrapper{
   margin: 0 0; 
 }
 .o_facilites_text_container{
-  margin-right: 100px;
   background-color: #E6E7E8;
   padding-left: 15%;
   padding-right: 8%;
   padding-top: 10%;
   padding-bottom: 10%;
-  margin-top: 40px;
+  margin-top: 20px;
+  -webkit-box-shadow: 0px 10px 14px -1px rgba(156,140,156,0.86);
+  -moz-box-shadow: 0px 10px 14px -1px rgba(156,140,156,0.86);
+  box-shadow: 0px 10px 14px -1px rgba(156,140,156,0.86);
 }
 .o_home_facilities_left{
   padding-left: 0;
@@ -513,6 +516,7 @@ background-color: #ED1D24;
 .o_facilites_text_content{
   font-family: alef-regular;
   padding-bottom: 40px;
+  font-size: 18px;
 }
 .o_facilities_eca_link, .o_facilities_eca_link:visited{
   color: #4D4D4F;
@@ -548,8 +552,9 @@ background-color: #ED1D24;
 ===================================*/
 
 .o_home_admission_container{
-  width: 90%;
+  width: 70%;
   margin: 8% auto;
+  padding-bottom: 5%;
 }
 .o_home_admission_left_img{
   height: 720px;;
@@ -566,6 +571,7 @@ background-color: #ED1D24;
   width: 70%;
   margin-bottom: 7%;
   font-family: alef-regular;
+  font-size: 18px;
 }
 .o_home_admission_link_buttons{
   width: 33%;
@@ -644,7 +650,7 @@ background-color: #ED1D24;
 ======Home News and notice section ======
 ===================================*/
 .o_home_news_notice_container{
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
 }
 .o_home_news_column{
@@ -718,11 +724,15 @@ background-color: #ED1D24;
 /* =======================================
 ========Home Academic Calender Section====
 ========================================== */
-.o_home_academic_section_container{
-  width: 90%;
+/* .o_home_academic_section_container{
+  width: 50%;
   margin: 5% auto;
 }
+.o_home_academic_section_img{
+  margin-top: -20px;
+}
 .o_home_academic_section_img img{
+  width: 280px;
   -webkit-transition: all ease-out .3s;
   -ms-transition: all ease-out .3s;
   transition: all ease-out .3s;
@@ -732,6 +742,54 @@ background-color: #ED1D24;
   font-family: alef-regular;
 }
 .o_home_academic_calender_text_wrap{
+  margin-left: 0px;
+  margin-top: 12px;
+  margin-right: 10%;
+  background-color: #E6E7E8;
+  padding-top: 5%;
+  padding-bottom: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+.o_home_academic_right{
+  margin-left: 0px;
+}
+.o_academic_calen_titile{
+  padding-top: 5%;
+}
+
+.o_home_academic_read_more{
+  float: right;
+  margin-top: 50px;
+} */
+.o_home_academic_section_container{
+  width: 70%;
+  margin: 2% auto;
+  background-color: #E6E7E8;
+  padding-top: 2%;
+  margin-bottom: 5%;
+  -webkit-box-shadow: 0px 10px 14px -1px rgba(156,140,156,0.86);
+-moz-box-shadow: 0px 10px 14px -1px rgba(156,140,156,0.86);
+box-shadow: 0px 10px 14px -1px rgba(156,140,156,0.86);
+ }
+ .o_home_academic_section_img img{
+  -webkit-transition: all ease-out .3s;
+  -ms-transition: all ease-out .3s;
+  transition: all ease-out .3s;
+  margin-top: -17%;
+  transform: scale(.8);
+ }
+ .o_home_academic_section_img img:hover{
+  -webkit-transform: scale(0.85);
+  -ms-transform: scale(0.85);
+  transform: scale(0.85);
+ }
+ .o_home_academic_text_content{
+  width: 80%;
+  font-family: alef-regular;
+ }
+ .o_home_academic_calender_text_wrap{
   margin-left: 40px;
   margin-top: 12px;
   margin-right: 10%;
@@ -740,19 +798,20 @@ background-color: #ED1D24;
   padding-bottom: 20%;
   padding-left: 12%; 
   padding-right: 0%; 
-}
-.o_home_academic_right{
+ }
+ .o_home_academic_right{
   margin-left: -20px;
-}
-.o_home_academic_read_more{
+  margin-top: 8%;
+ }
+ .o_home_academic_read_more{
   float: right;
   margin-top: 50px;
-}
+ }
 /* ==============================================
 ==========Home Campus Section====================
 ================================================= */
 .o_home_campus_container{
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
 }
 .o_home_campus_content_wrapper{
@@ -771,7 +830,7 @@ background-color: #ED1D24;
 .o_home_campus_link_buttons{
   font-size: 20px;
   width: 50%;
-  padding-left: 60px;
+  padding-left: 10px;
 }
 .o_home_campus_link_buttons:after{
   width: 20%;
@@ -780,10 +839,13 @@ background-color: #ED1D24;
   width: 40%;
 }
 .o_home_campus_section_img img{
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 100%;
-  height: 500px;
+  height: 300px;
   object-fit: cover;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 /* ==================================================
 ===========Home Alumni Section=======================
@@ -993,12 +1055,21 @@ background-color: #ED1D24;
         width: 90%;
     }
     .o_welcome_text_container p{
-        font-size: 1.1rem;
+        font-size: 18px;
         margin-bottom: 10px;
     }
     .o_about_us_col{
       padding-right: 40px;
       padding-left: 40px;
+  }
+  .o_about_us_section_wrapper{
+    width: 100%;
+  }
+  .o_home_news_notice_container{
+    width: 90%;
+  }
+  .o_home_facilities_section_container{
+    width: 90%;
   }
        /*=============================
 ====Facilities Section============
@@ -1034,7 +1105,7 @@ background-color: #ED1D24;
       width: 100%;
     }
     .o_home_admission_link_buttons {
-      width: 45%;
+      width: 50%;
     }
     .o_home_academic_right {
       margin-left: 0px;
@@ -1106,7 +1177,24 @@ background-color: #ED1D24;
     .o_footer_developer {
         width: 96%;
     }
-
+    .o_academic_calen_titile{
+      padding-top: 10%;
+    }
+    .o_calen_headline{
+      font-size: 25px;
+      text-align: center;
+    }
+    .o_home_admission_container{
+      width: 95%;
+    }
+    .o_home_academic_section_container{
+      width: 100%;
+      padding-top: 5%;
+      text-align: center;
+    }
+    .o_home_academic_right{
+      margin-top: 0%;
+    }
 }
 
 
@@ -1226,7 +1314,7 @@ background-color: #ED1D24;
       width: 100%;
     }
     .o_home_admission_link_buttons {
-      width: 45%;
+      width: 50%;
     }
     .o_home_academic_right {
       margin-left: 0px;
