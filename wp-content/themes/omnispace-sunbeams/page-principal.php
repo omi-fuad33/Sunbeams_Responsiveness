@@ -38,7 +38,7 @@
          $image_url = wp_get_attachment_image_src($image_id, 'full', true);
          ?><br><br>
       <div class="container-fluid  n_fullSecond">
-         <div><img class="n_im img-responsive n_hideImageOne"  src="<?php echo $image_url[0]; ?>"></div>
+<!--         <div><img class="n_im img-responsive n_hideImageOne"  src="<?php echo $image_url[0]; ?>"></div>-->
           
     
           <div class="n_newIm"><img class="float-right n_im img-responsive"  src="<?php echo $image_url[0]; ?>"></div>
