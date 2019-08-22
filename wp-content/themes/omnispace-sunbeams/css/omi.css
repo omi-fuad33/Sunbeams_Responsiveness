@@ -407,7 +407,7 @@ background-color: #ED1D24;
     margin: 0 auto;
 }
 .o_welcome_text_container p{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-family: alef-regular;
     text-align: center;
     margin-bottom: 30px;
@@ -420,7 +420,7 @@ background-color: #ED1D24;
   margin: 0 auto;
 }
 .o_about_us_section_wrapper{
-    width: 90%;
+    width: 50%;
     margin: 0 auto;
 }
 .o_about_us_col{
@@ -477,19 +477,22 @@ background-color: #ED1D24;
 ======Facilities section========
 ============================== */
 .o_home_facilities_section_container{
- margin-top: 5%;
+  width: 60%; 
+  margin: 5% auto;
 }
 .o_facilites_text_container_wrapper{
   margin: 0 0; 
 }
 .o_facilites_text_container{
-  margin-right: 100px;
   background-color: #E6E7E8;
   padding-left: 15%;
   padding-right: 8%;
   padding-top: 10%;
   padding-bottom: 10%;
-  margin-top: 40px;
+  margin-top: 20px;
+  -webkit-box-shadow: 0px 10px 14px -1px rgba(156,140,156,0.86);
+  -moz-box-shadow: 0px 10px 14px -1px rgba(156,140,156,0.86);
+  box-shadow: 0px 10px 14px -1px rgba(156,140,156,0.86);
 }
 .o_home_facilities_left{
   padding-left: 0;
@@ -647,7 +650,7 @@ background-color: #ED1D24;
 ======Home News and notice section ======
 ===================================*/
 .o_home_news_notice_container{
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
 }
 .o_home_news_column{
@@ -1052,12 +1055,21 @@ box-shadow: 0px 10px 14px -1px rgba(156,140,156,0.86);
         width: 90%;
     }
     .o_welcome_text_container p{
-        font-size: 1.1rem;
+        font-size: 18px;
         margin-bottom: 10px;
     }
     .o_about_us_col{
       padding-right: 40px;
       padding-left: 40px;
+  }
+  .o_about_us_section_wrapper{
+    width: 100%;
+  }
+  .o_home_news_notice_container{
+    width: 90%;
+  }
+  .o_home_facilities_section_container{
+    width: 90%;
   }
        /*=============================
 ====Facilities Section============
