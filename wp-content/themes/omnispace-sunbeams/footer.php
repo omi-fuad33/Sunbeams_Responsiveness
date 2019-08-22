@@ -11,6 +11,9 @@
 
 ?>
 <!-- Footer nav Section starts -->
+    <div class="o_home_footer_disclaimer">
+        <marquee><strong>DISCLAIMER:</strong> There is <strong>NO</strong> official Sunbeams Facebook Page or YouTube Channel. Sunbeams does not take responsibility for any information provided on any of these websites. For any information regarding Sunbeams, please contact the school office. Thank you</marquee>
+    </div>
     <div class="o_footer_wrap" id="footer">
         <div class="o_footer_container">
             <div class="row">

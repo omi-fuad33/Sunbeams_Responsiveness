@@ -885,6 +885,18 @@ box-shadow: 0px 10px 14px -1px rgba(156,140,156,0.86);
 /* =================================
 =====Footer Headline===============
 =================================== */
+.o_home_footer_disclaimer{
+  width: 90%;
+  margin: 0 auto;
+  background-color: #8A8C8E;
+  margin-bottom: 20px;
+}
+.o_home_footer_disclaimer marquee{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  font-family: alef-regular;
+}
 .o_footer_wrap{
   background-color: #E6E7E8;
   width: 90%;
