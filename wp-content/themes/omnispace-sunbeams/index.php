@@ -72,7 +72,7 @@ get_header();
             <h1 class="o_homepage_heading">About Us</h1>
             <div class="row">
                 <div class="col-lg-12 o_about_us_col wow zoomIn">
-                    <img class="o_about_us_col_img img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/Principal.jpg" alt="image not found">
+                    <img class="o_about_us_col_img img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/principal2.jpeg" alt="image not found">
                     <h2>Message from Head of School</h2>
                     <a href="<?php echo get_home_url(); ?>/principal"><p class="o_about_us_read_more">Read More</p></a>
                 </div>

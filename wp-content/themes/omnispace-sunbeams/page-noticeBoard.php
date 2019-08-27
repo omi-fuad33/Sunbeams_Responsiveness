@@ -3,8 +3,10 @@
        Template Name: Notice Board 
     */
    get_header(); ?>
-<div class="n_allEvents">
-   <br><br><br><br>
+
+<div class="n_differentfull">
+   <br><br><br><br><br>
+    <div class="n_allEvents">
    <!--Home taxt and bottombar -->
    <p class="n_homebarAllEvents">HOME>
       <?php the_title_attribute(); ?><br>
@@ -97,7 +99,7 @@
    </div>
    <hr>
    <br><br><br>
-</div>
+
 <?php
    $counter = 0;
    endif;
@@ -108,13 +110,9 @@
    //Pagination can go here if you want it.
    endif;
    ?>
-<?php wp_reset_query(); ?>
-<!--  Event & updates post row ends -->
-<!--<div class="n_allEButton">
-   <a href="<?php echo get_template_directory_uri(); ?>/events/all-events/">
-       <button class="o_all_blogs_button">All Events</button>
-   </a><br><br><br>
-   </div>-->
+
+</div><br><br><br><br><br><br><br><br>
 </div>
-</section>
-<?php get_footer(); ?>
+    
+<div class="n_foot"><?php get_footer();?></div>
+
