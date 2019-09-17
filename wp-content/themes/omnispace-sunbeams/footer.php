@@ -17,20 +17,23 @@
     <div class="o_footer_wrap" id="footer">
         <div class="o_footer_container">
             <div class="row">
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-2 col-md-2">
+                    <img class="o_footer_logo" src="<?php echo get_template_directory_uri(); ?>/images/sunbeamsLogoFooter.png">
+                </div>
+                <div class="col-lg-3 col-md-3">
                     <h3 class="o_facilites_text_headline o_footer_headline">Contact Us</h3>
                     <h5 class="o_footer_sub_title">Dhanmondi</h5>
                     <p class="o_footer_paragraph">info@sunbeams.com<br>
-                        Road 4, House 46<br>
-                        Dhanmondi, Dhaka<br>
-                        Phone: 95536254, 0171568459</p>
+                        House #51, Road #16<br>
+                        Dhanmondi, Dhaka-1205<br>
+                        Mobile: 01841777737</p>
                     <h5 class="o_footer_sub_title">Uttara</h5>
                     <p class="o_footer_paragraph">sunbeams.uttara@gmail.com<br>
-                        Road 13, House 51,<br>
-                        Sector 11, Uttara, Dhaka<br>
-                        Phone: 8564236, 0171523678<p>
+                        Plot #6-12, Road #13/A<br>
+                        Sector #10, Uttara, Dhaka-1230<br>
+                        Bangladesh<p>
                 </div>
-                <div class="col-lg-4 col-md-4 d_qInfo">
+                <div class="col-lg-2 col-md-2 d_qInfo">
                     <h3 class="o_facilites_text_headline o_footer_headline">Quick Info</h3>
                     <div class="o_footer_quick_info_menu_wrap">
                         <?php
@@ -39,18 +42,20 @@
                             ) );
                         ?>
                     </div>
-                    <p class="o_footer_sub_title o_footer_copyright_symbol">&copy; Sunbeams Ltd.</p>
+                    <!-- <p class="o_footer_sub_title o_footer_copyright_symbol">&copy; Sunbeams Ltd.</p> -->
                 </div>
-                <div class="col-lg-4 col-md-4 ">
-                    <h3 class="o_facilites_text_headline o_footer_headline">For Admissions</h3>
-                    <p class="o_footer_admission_paragraph">Mail us<br>
-                        <span>sunbeams@info.com</span></p>
-                        <!-- <div class="o_footer_logo_wrap d_footer_logo">
-                            <img class="o_footer_logo" src="<?php echo get_template_directory_uri(); ?>/images/sunbeamsLogoFooter.png">
-                        </div> -->
-                        <div class="o_footer_logo_wrap d_footer_padding">
-                            <img class="o_footer_logo" src="<?php echo get_template_directory_uri(); ?>/images/sunbeamsLogoFooter.png">
-                        </div>
+                <div class="col-lg-4 col-md-5">
+                    <h3 class="o_facilites_text_headline o_footer_headline">Email Address</h3>
+                    <p class="o_footer_admission_paragraph">For Junior School (Playgroup-IV) : <span>juniorschool@sunbeams.edu.bd</span><br>
+                    For Middle School (V-VIII) : <span>middleschool@sunbeams.edu.bd</span><br>
+                    For Senior School (IX-XII) : <span>seniorschool@sunbeams.edu.bd</span><br>
+                    For Foreign Admission (X and XII) : <span>recommendations@sunbeams.edu.bd</span><br>
+                    For General Information : <span>info@sunbeams.edu.bd</span></p>
+                    <br>
+                    <h3 class="o_facilites_text_headline o_footer_headline">Phone Numbers</h3>
+                    <p><span class="o_footer_sub_title">Dhanmondi :</span> Phone: 02-58156168, 58156197<br>
+                    <span class="o_footer_sub_title">Uttara :</span> Mobile: 01727-343088<p>
+
                 </div>
 
             </div>
